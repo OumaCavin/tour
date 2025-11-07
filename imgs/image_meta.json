@@ -1333,5 +1333,50 @@
       "file_name": "tsavo-red-elephants_3.jpg"
     },
     "llm_score": null
+  },
+  {
+    "query": "A simple, clean favicon icon for a Kenya safari website with an elephant silhouette or African wildlife theme",
+    "image_info": {
+      "url": "https://static.vecteezy.com/system/resources/previews/025/448/685/non_2x/africa-icon-african-safari-giraffes-tree-and-sun-vector.jpg",
+      "img_format": "JPEG",
+      "mode": "RGB",
+      "file_size": 45483,
+      "width": 982,
+      "height": 980,
+      "total_pixels": 962360,
+      "basic_score": 0.9209100712233045,
+      "file_name": "favicon_creation_5.jpg"
+    },
+    "llm_score": null
+  },
+  {
+    "query": "A simple, clean favicon icon for a Kenya safari website with an elephant silhouette or African wildlife theme",
+    "image_info": {
+      "url": "https://www.pngitem.com/pimgs/m/666-6666859_kenya-safari-deals-kenya-tours-and-safari-logo.png",
+      "img_format": "PNG",
+      "mode": "RGBA",
+      "file_size": 86037,
+      "width": 860,
+      "height": 815,
+      "total_pixels": 700900,
+      "basic_score": 0.8888970235367375,
+      "file_name": "favicon_creation_3.png"
+    },
+    "llm_score": null
+  },
+  {
+    "query": "A simple, clean favicon icon for a Kenya safari website with an elephant silhouette or African wildlife theme",
+    "image_info": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/Safari_Rally_Kenya_official_logo.png/960px-Safari_Rally_Kenya_official_logo.png",
+      "img_format": "PNG",
+      "mode": "RGBA",
+      "file_size": 297953,
+      "width": 960,
+      "height": 450,
+      "total_pixels": 432000,
+      "basic_score": 0.821849304669843,
+      "file_name": "favicon_creation_6.png"
+    },
+    "llm_score": null
   }
 ]
