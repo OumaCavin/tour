@@ -1,0 +1,91 @@
+# Kenya Safari Tours - Railway Environment Variables
+# Copy and paste these values into Railway Dashboard → Settings → Environment Variables
+
+# ============================================================================
+# SERVER CONFIGURATION
+# ============================================================================
+NODE_ENV=production
+PORT=3000
+
+# ============================================================================
+# STRIPE PAYMENT PROCESSING (TEST MODE)
+# ============================================================================
+# Your actual Stripe test keys - no business verification required
+STRIPE_PUBLISHABLE_KEY=pk_test_51SQlePFl1uXcWbBh3uPz4Nd51YZqQxVX6u5et2rDj1U4N4MQiPiqgSLp4GvVvEwI0gvQR5GfAOrF6ZGfElrRw3DA00CPuA3w48
+STRIPE_SECRET_KEY=sk_test_51SQlePFl1uXcWbBhq5NQlFgnWfk3kGI3XmzgsNJzCOjLXI3G3xAHeeusRtI5SfW373OQQrVoYFUzZXxgmramNqf900Qt2SK3DW
+
+# ============================================================================
+# RESEND EMAIL SERVICE (FREE TIER)
+# ============================================================================
+# Your actual Resend API key - 3,000 emails/month free
+RESEND_API_KEY=re_FK6iEydb_J4gw5Jkn5sKcn8s19LbSN9VK
+
+# ============================================================================
+# SUPABASE DATABASE
+# ============================================================================
+# Your Supabase project credentials
+SUPABASE_URL=https://thmujhifulhmwpefjxyd.supabase.co
+SUPABASE_ANON_KEY=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InRobXVqaGlmdWxobXdwZWZqeHlkIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NjI0ODIwNjgsImV4cCI6MjA3ODA1ODA2OH0.OoIbDIrAjcr9g0yNj5WQCwgxRtCrQiWMa7X09V9S44g
+SUPABASE_SERVICE_KEY=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InRobXVqaGlmdWxobXdwZWZqeHlkIiwicm9sZSI6InNlcnZpY2Vfcm9sZSIsImlhdCI6MTc2MjQ4MjA2OCwiZXhwIjoyMDc4MDU4MDY4fQ.kGHIJmEKwQkW8bLb7q2HW-2eU8iMVxYJq2UVjwMzTlE
+DATABASE_PASSWORD=Airtel!23!23
+
+# ============================================================================
+# M-PESA MOBILE PAYMENTS (SAFARICOM)
+# ============================================================================
+# Your M-PESA API credentials
+MPESA_CONSUMER_KEY=QkPVoj0rqNjCfm9REtdBjL18yYjPsUgCgmQddGGdABSgoojd
+MPESA_CONSUMER_SECRET=wAONrwQEH6OhFHyhaEqX4dNq2zHZDMT6WBSYU61h6vl9o49DMG6JwzyX1gIxitxO
+MPESA_BUSINESS_SHORT_CODE=174379
+MPESA_PASS_KEY=bfb279f9aa9bdbcf158e97dd71a467cd2e0c893059b10f78e6b72ada1ed2c919
+
+# ⚠️ IMPORTANT: Update these URLs after deployment
+# Replace 'your-project-name' with your actual Railway project name
+MPESA_CALLBACK_URL=https://your-project-name.railway.app/api/mpesa-callback
+MPESA_TIMEOUT_URL=https://your-project-name.railway.app/api/mpesa-timeout
+
+# ============================================================================
+# SECURITY & CORS
+# ============================================================================
+# JWT secret for authentication
+JWT_SECRET=kenya-safari-tours-jwt-secret-2025-production
+
+# CORS origin for your GitHub Pages frontend
+CORS_ORIGIN=https://oumacavin.github.io
+
+# ============================================================================
+# SMTP EMAIL ALTERNATIVE (GMAIL)
+# ============================================================================
+# Gmail SMTP configuration - requires app password
+SMTP_HOST=smtp.gmail.com
+SMTP_PORT=587
+SMTP_USER=cavin.otieno012@gmail.com
+SMTP_PASS=your_gmail_app_password_here
+FROM_EMAIL=cavin.otieno012@gmail.com
+FROM_NAME=Kenya Safari Tours
+
+# ============================================================================
+# BUSINESS INFORMATION
+# ============================================================================
+BUSINESS_NAME=Kenya Safari Tours
+BUSINESS_EMAIL=cavin.otieno012@gmail.com
+BUSINESS_PHONE=+254708101604
+BUSINESS_ADDRESS=Westlands Business Park, Ring Road, P.O. Box 12345-00100, Nairobi, Kenya
+
+# ============================================================================
+# PAYMENT CONFIGURATION
+# ============================================================================
+CURRENCY_KES=kes
+CURRENCY_USD=usd
+CURRENCY_EUR=eur
+
+# ============================================================================
+# SETUP INSTRUCTIONS
+# ============================================================================
+# 1. Copy all values above (except the comments)
+# 2. Go to Railway Dashboard → Your Project → Settings → Environment Variables
+# 3. Add each variable one by one using "Add Variable" button
+# 4. Wait for deployment to complete
+# 5. Update M-PESA callback URLs with your actual Railway URL
+# 6. Generate Gmail app password and update SMTP_PASS
+# 7. Test the health endpoint: https://your-project-name.railway.app/api/health
+# ============================================================================
