@@ -34,11 +34,16 @@ SUPABASE_URL = https://thmujhifulhmwpefjxyd.supabase.co
 SUPABASE_ANON_KEY = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InRobXVqaGlmdWxobXdwZWZqeHlkIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NjI0ODIwNjgsImV4cCI6MjA3ODA1ODA2OH0.OoIbDIrAjcr9g0yNj5WQCwgxRtCrQiWMa7X09V9S44g
 SUPABASE_SERVICE_KEY = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InRobXVqaGlmdWxobXdwZWZqeHlkIiwicm9sZSI6InNlcnZpY2Vfcm9sZSIsImlhdCI6MTc2MjQ4MjA2OCwiZXhwIjoyMDc4MDU4MDY4fQ.kGHIJmEKwQkW8bLb7q2HW-2eU8iMVxYJq2UVjwMzTlE
 
-# M-PESA
+# M-PESA (Complete Configuration)
 MPESA_CONSUMER_KEY = QkPVoj0rqNjCfm9REtdBjL18yYjPsUgCgmQddGGdABSgoojd
 MPESA_CONSUMER_SECRET = wAONrwQEH6OhFHyhaEqX4dNq2zHZDMT6WBSYU61h6vl9o49DMG6JwzyX1gIxitxO
 MPESA_BUSINESS_SHORT_CODE = 174379
 MPESA_PASS_KEY = bfb279f9aa9bdbcf158e97dd71a467cd2e0c893059b10f78e6b72ada1ed2c919
+MPESA_AUTH_URL = https://api.safaricom.co.ke/oauth/v1/generate?grant_type=client_credentials
+MPESA_ONLINEPAYMENT_URL = https://api.safaricom.co.ke/mpesa/stkpush/v1/processrequest
+MPESA_ENV = sandbox
+MPESA_BUSINESS_SHORTCODE = 174379
+MPESA_PARTY_B = 174379
 MPESA_CALLBACK_URL = https://your-project-name.railway.app/api/mpesa-callback
 MPESA_TIMEOUT_URL = https://your-project-name.railway.app/api/mpesa-timeout
 
@@ -129,6 +134,15 @@ Should return:
 2. ✅ Use test card: `4242 4242 4242 4242`
 3. ✅ Any future date, any CVC, any ZIP
 
+### 4.4 Test M-PESA Payment
+1. ✅ Go to: https://oumacavin.github.io/tour/payment.html
+2. ✅ Select **M-PESA** payment method
+3. ✅ Enter test phone: `0708101604`
+4. ✅ Enter any amount (e.g., 100)
+5. ✅ Click **"Initiate M-PESA Payment"**
+6. ✅ Check phone for STK push prompt
+7. ✅ Enter M-PESA PIN: `1234` (sandbox default)
+
 ---
 
 ## 🎯 Your Credentials Summary
@@ -161,7 +175,8 @@ Should return:
 - [ ] Gmail app password configured
 - [ ] Contact form sending emails
 - [ ] Stripe test payments working
-- [ ] M-PESA URLs updated
+- [ ] M-PESA test payments working
+- [ ] M-PESA URLs updated with actual Railway URL
 - [ ] Frontend connected to Railway backend
 
 **🎉 You're live! Your Kenya Safari Tours website is now running on Railway!**
