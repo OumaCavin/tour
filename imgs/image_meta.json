@@ -223,5 +223,1115 @@
       "file_name": "masai_mara_hero_9.jpg"
     },
     "llm_score": null
+  },
+  {
+    "query": "Professional headshot of Sarah Johnson, a satisfied tourist from UK, for testimonials",
+    "image_info": {
+      "url": "https://cdn.acs.org.uk/public/team/Sarah%20770_0.gif",
+      "img_format": "GIF",
+      "mode": "P",
+      "file_size": 210871,
+      "width": 770,
+      "height": 512,
+      "total_pixels": 394240,
+      "basic_score": 0.7988591160182663,
+      "file_name": "sarah-johnson_5.gif"
+    },
+    "llm_score": null
+  },
+  {
+    "query": "Professional headshot of Sarah Johnson, a satisfied tourist from UK, for testimonials",
+    "image_info": {
+      "url": "https://ichef.bbci.co.uk/ace/standard/665/cpsprodpb/dabc/live/24955ac0-e86a-11ef-bd49-371faa14fe11.jpg",
+      "img_format": "JPEG",
+      "mode": "RGB",
+      "file_size": 45291,
+      "width": 665,
+      "height": 375,
+      "total_pixels": 249375,
+      "basic_score": 0.7685154324009592,
+      "file_name": "sarah-johnson_1.jpg"
+    },
+    "llm_score": null
+  },
+  {
+    "query": "Professional headshot of Sarah Johnson, a satisfied tourist from UK, for testimonials",
+    "image_info": {
+      "url": "https://pbs.twimg.com/profile_images/1271544502340198400/8Fq7zjbq_400x400.jpg",
+      "img_format": "JPEG",
+      "mode": "RGB",
+      "file_size": 26018,
+      "width": 400,
+      "height": 400,
+      "total_pixels": 160000,
+      "basic_score": 0.7321495668798554,
+      "file_name": "sarah-johnson_0.jpg"
+    },
+    "llm_score": null
+  },
+  {
+    "query": "Professional headshot of Michael Chen, a satisfied tourist from Singapore, for testimonials",
+    "image_info": {
+      "url": "https://preview.redd.it/hi-im-mike-chen-i-travel-the-world-trying-all-types-of-v0-gxs5j9x8jk6d1.png?width=1080&auto=webp&s=67c468251e8e570a123879f59560eca436511c17",
+      "img_format": "PNG",
+      "mode": "P",
+      "file_size": 517046,
+      "width": 1080,
+      "height": 1035,
+      "total_pixels": 1117800,
+      "basic_score": 0.9452366486182247,
+      "file_name": "michael-chen_3.png"
+    },
+    "llm_score": null
+  },
+  {
+    "query": "Professional headshot of Michael Chen, a satisfied tourist from Singapore, for testimonials",
+    "image_info": {
+      "url": "https://i.ytimg.com/vi/EYXgKhvcsu0/maxresdefault.jpg",
+      "img_format": "JPEG",
+      "mode": "RGB",
+      "file_size": 131097,
+      "width": 1280,
+      "height": 720,
+      "total_pixels": 921600,
+      "basic_score": 0.932959393828801,
+      "file_name": "michael-chen_2.jpg"
+    },
+    "llm_score": null
+  },
+  {
+    "query": "Professional headshot of Michael Chen, a satisfied tourist from Singapore, for testimonials",
+    "image_info": {
+      "url": "https://i.ytimg.com/vi/1oFHIDnRuvs/maxresdefault.jpg",
+      "img_format": "JPEG",
+      "mode": "RGB",
+      "file_size": 128765,
+      "width": 1280,
+      "height": 720,
+      "total_pixels": 921600,
+      "basic_score": 0.932733767735431,
+      "file_name": "michael-chen_1.jpg"
+    },
+    "llm_score": null
+  },
+  {
+    "query": "Beautiful sunset landscape from Masai Mara National Reserve for destination showcase",
+    "image_info": {
+      "url": "https://marasiligicamp.com/wp-content/uploads/2025/07/image-11-1024x683.png",
+      "img_format": "PNG",
+      "mode": "P",
+      "file_size": 108829,
+      "width": 1024,
+      "height": 683,
+      "total_pixels": 699392,
+      "basic_score": 0.8941317488280656,
+      "file_name": "masai-mara-sunset_7.png"
+    },
+    "llm_score": null
+  },
+  {
+    "query": "Beautiful sunset landscape from Masai Mara National Reserve for destination showcase",
+    "image_info": {
+      "url": "https://www.thesafaricollection.com/wp-content/uploads/2024/07/The-Safari-Collection-Golden-hour-in-the-Masai-Mara-Salas-Camp.jpg",
+      "img_format": "JPEG",
+      "mode": "RGB",
+      "file_size": 368468,
+      "width": 742,
+      "height": 500,
+      "total_pixels": 371000,
+      "basic_score": 0.8474054597096171,
+      "file_name": "masai-mara-sunset_2.jpg"
+    },
+    "llm_score": null
+  },
+  {
+    "query": "Professional portrait of Samuel Kiprotich, a Kenyan safari guide, for team member section",
+    "image_info": {
+      "url": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/31/2b/1f/bc/caption.jpg?w=1200&h=900&s=1",
+      "img_format": "JPEG",
+      "mode": "RGB",
+      "file_size": 259749,
+      "width": 1200,
+      "height": 900,
+      "total_pixels": 1080000,
+      "basic_score": 0.9474134081383377,
+      "file_name": "samuel-kiprotich_3.jpg"
+    },
+    "llm_score": null
+  },
+  {
+    "query": "Professional portrait of Samuel Kiprotich, a Kenyan safari guide, for team member section",
+    "image_info": {
+      "url": "https://www.sundestinations.co.za/blog/wp-content/uploads/2017/06/Warren1-769x570.jpg",
+      "img_format": "JPEG",
+      "mode": "RGB",
+      "file_size": 71565,
+      "width": 769,
+      "height": 570,
+      "total_pixels": 438330,
+      "basic_score": 0.83626283552541,
+      "file_name": "samuel-kiprotich_0.jpg"
+    },
+    "llm_score": null
+  },
+  {
+    "query": "Professional portrait of Samuel Kiprotich, a Kenyan safari guide, for team member section",
+    "image_info": {
+      "url": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/31/07/12/99/caption.jpg?w=200&h=-1&s=1",
+      "img_format": "JPEG",
+      "mode": "RGB",
+      "file_size": 9978,
+      "width": 200,
+      "height": 150,
+      "total_pixels": 30000,
+      "basic_score": 0.6648213044171416,
+      "file_name": "samuel-kiprotich_2.jpg"
+    },
+    "llm_score": null
+  },
+  {
+    "query": "Scenic view of Tsavo National Park with red elephants for destination section",
+    "image_info": {
+      "url": "https://margaretweiss.com.au/wp-content/uploads/2024/06/FEATURED-IMAGE-1.jpg",
+      "img_format": "JPEG",
+      "mode": "RGB",
+      "file_size": 442116,
+      "width": 1080,
+      "height": 720,
+      "total_pixels": 777600,
+      "basic_score": 0.944583706591804,
+      "file_name": "tsavo-national-park_6.jpg"
+    },
+    "llm_score": null
+  },
+  {
+    "query": "Scenic view of Tsavo National Park with red elephants for destination section",
+    "image_info": {
+      "url": "https://i0.wp.com/pdtoursandsafaris.com/wp-content/uploads/2020/11/Featured-Image-Tsavos-Red-Elephants-1280-%C3%97-854-px.jpg?fit=1280%2C854&ssl=1",
+      "img_format": "JPEG",
+      "mode": "RGB",
+      "file_size": 137202,
+      "width": 1280,
+      "height": 854,
+      "total_pixels": 1093120,
+      "basic_score": 0.9371333318222869,
+      "file_name": "tsavo-national-park_2.jpg"
+    },
+    "llm_score": null
+  },
+  {
+    "query": "Scenic view of Tsavo National Park with red elephants for destination section",
+    "image_info": {
+      "url": "https://margaretweiss.com.au/wp-content/uploads/2024/06/Red-Elephants-at-a-waterhole-Tsavo-West-National-Park-1024x683.jpg",
+      "img_format": "JPEG",
+      "mode": "RGB",
+      "file_size": 164353,
+      "width": 1024,
+      "height": 683,
+      "total_pixels": 699392,
+      "basic_score": 0.9097727723065193,
+      "file_name": "tsavo-national-park_5.jpg"
+    },
+    "llm_score": null
+  },
+  {
+    "query": "Professional headshot of Emma Williams, a satisfied tourist from Australia, for testimonials",
+    "image_info": {
+      "url": "https://i.ytimg.com/vi/sKrlOjGkzuM/maxresdefault.jpg",
+      "img_format": "JPEG",
+      "mode": "RGB",
+      "file_size": 57542,
+      "width": 1280,
+      "height": 720,
+      "total_pixels": 921600,
+      "basic_score": 0.9255993134456855,
+      "file_name": "emma-williams_2.jpg"
+    },
+    "llm_score": null
+  },
+  {
+    "query": "Professional headshot of Emma Williams, a satisfied tourist from Australia, for testimonials",
+    "image_info": {
+      "url": "https://live-production.wcms.abc-cdn.net.au/26c52a0ff86cd7a7d99f08664fe38af3?impolicy=wcms_crop_resize&cropH=2400&cropW=2400&xPos=600&yPos=0&width=862&height=862",
+      "img_format": "JPEG",
+      "mode": "RGB",
+      "file_size": 246788,
+      "width": 862,
+      "height": 862,
+      "total_pixels": 743044,
+      "basic_score": 0.9211205580412967,
+      "file_name": "emma-williams_3.jpg"
+    },
+    "llm_score": null
+  },
+  {
+    "query": "Professional headshot of Emma Williams, a satisfied tourist from Australia, for testimonials",
+    "image_info": {
+      "url": "https://live-production.wcms.abc-cdn.net.au/5e12c6c23887cf9791f1e1eac8635c02?impolicy=wcms_crop_resize&cropH=1538&cropW=1538&xPos=510&yPos=0&width=862&height=862",
+      "img_format": "JPEG",
+      "mode": "RGB",
+      "file_size": 206037,
+      "width": 862,
+      "height": 862,
+      "total_pixels": 743044,
+      "basic_score": 0.917433412525714,
+      "file_name": "emma-williams_0.jpg"
+    },
+    "llm_score": null
+  },
+  {
+    "query": "Beautiful view of Lake Nakuru with flamingos for destination showcase",
+    "image_info": {
+      "url": "https://kiriwetravel.co.tz/wp-content/uploads/2025/05/Lake-Nakuru-Safari-Where-Flamingos-and-Rhinos-Roam.jpg",
+      "img_format": "JPEG",
+      "mode": "RGB",
+      "file_size": 136894,
+      "width": 1000,
+      "height": 700,
+      "total_pixels": 700000,
+      "basic_score": 0.9057796744753307,
+      "file_name": "lake-nakuru_8.jpg"
+    },
+    "llm_score": null
+  },
+  {
+    "query": "Beautiful view of Lake Nakuru with flamingos for destination showcase",
+    "image_info": {
+      "url": "https://amazingmemoriessafaris.com/wp-content/uploads/2019/10/Lake-Nakuru-National-Park.jpg",
+      "img_format": "JPEG",
+      "mode": "RGB",
+      "file_size": 76277,
+      "width": 900,
+      "height": 451,
+      "total_pixels": 405900,
+      "basic_score": 0.8138964213445476,
+      "file_name": "lake-nakuru_5.jpg"
+    },
+    "llm_score": null
+  },
+  {
+    "query": "Beautiful view of Lake Nakuru with flamingos for destination showcase",
+    "image_info": {
+      "url": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-720x480/09/1f/24/08.jpg",
+      "img_format": "JPEG",
+      "mode": "RGB",
+      "file_size": 91217,
+      "width": 720,
+      "height": 479,
+      "total_pixels": 344880,
+      "basic_score": 0.8089159941440665,
+      "file_name": "lake-nakuru_6.jpg"
+    },
+    "llm_score": null
+  },
+  {
+    "query": "Professional portrait photo of Cavin Otieno, a Kenyan safari guide, for website header",
+    "image_info": {
+      "url": "https://safarisunlimited.com/wp-content/uploads/bb-plugin/cache/Peter-Behr-Safaris-Unlimited-Africa-Guide-Gordie-Church-Kenya-square-bc756a9b8bd76728d0056b4b46445a7b-5b15489b7197f.png",
+      "img_format": "PNG",
+      "mode": "RGBA",
+      "file_size": 1253887,
+      "width": 1080,
+      "height": 1080,
+      "total_pixels": 1166400,
+      "basic_score": 0.931295844508671,
+      "file_name": "cavin-otieno-portrait_7.png"
+    },
+    "llm_score": null
+  },
+  {
+    "query": "Professional portrait photo of Cavin Otieno, a Kenyan safari guide, for website header",
+    "image_info": {
+      "url": "https://www.topsafariguides.com/img/team/photo-safari-guide3.jpg",
+      "img_format": "JPEG",
+      "mode": "RGB",
+      "file_size": 69751,
+      "width": 585,
+      "height": 585,
+      "total_pixels": 342225,
+      "basic_score": 0.8062552556619085,
+      "file_name": "cavin-otieno-portrait_1.jpg"
+    },
+    "llm_score": null
+  },
+  {
+    "query": "Professional portrait photo of Cavin Otieno, a Kenyan safari guide, for website header",
+    "image_info": {
+      "url": "https://www.topsafariguides.com/img/team/photo-safari-guide4.jpg",
+      "img_format": "JPEG",
+      "mode": "RGB",
+      "file_size": 54989,
+      "width": 585,
+      "height": 585,
+      "total_pixels": 342225,
+      "basic_score": 0.8042941611620522,
+      "file_name": "cavin-otieno-portrait_3.jpg"
+    },
+    "llm_score": null
+  },
+  {
+    "query": "Professional portrait of David Mutinda, a Kenyan mountain guide, for team member section",
+    "image_info": {
+      "url": "https://access2tanzania.com/wp-content/uploads/2025/03/david-guide-headshot.jpg",
+      "img_format": "JPEG",
+      "mode": "RGB",
+      "file_size": 81827,
+      "width": 1200,
+      "height": 1200,
+      "total_pixels": 1440000,
+      "basic_score": 0.8767094336178943,
+      "file_name": "david-mutinda_1.jpg"
+    },
+    "llm_score": null
+  },
+  {
+    "query": "Professional portrait of David Mutinda, a Kenyan mountain guide, for team member section",
+    "image_info": {
+      "url": "https://media.gettyimages.com/id/73734160/photo/western-cape-south-africa-david-kinjah-njau-and-davidson-kamau-kihagi-of-kenya-during-stage-5.jpg?s=612x612&w=gi&k=20&c=pLpFZi3Z87pgcL33RsG6V4vEC24qFleskPURbTY_3s8=",
+      "img_format": "JPEG",
+      "mode": "RGB",
+      "file_size": 47398,
+      "width": 612,
+      "height": 408,
+      "total_pixels": 249696,
+      "basic_score": 0.769346133412553,
+      "file_name": "david-mutinda_3.jpg"
+    },
+    "llm_score": null
+  },
+  {
+    "query": "Professional portrait of David Mutinda, a Kenyan mountain guide, for team member section",
+    "image_info": {
+      "url": "https://bloximages.newyork1.vip.townnews.com/santafenewmexican.com/content/tncms/assets/v3/editorial/0/66/06636328-7094-11e6-821a-df216d436844/57c8ad05f250d.image.jpg?resize=363%2C500",
+      "img_format": "JPEG",
+      "mode": "RGB",
+      "file_size": 41976,
+      "width": 363,
+      "height": 500,
+      "total_pixels": 181500,
+      "basic_score": 0.7451358801341278,
+      "file_name": "david-mutinda_5.jpg"
+    },
+    "llm_score": null
+  },
+  {
+    "query": "Professional portrait of Grace Wanjiru, a Kenyan cultural guide, for team member section",
+    "image_info": {
+      "url": "https://cdn.elisanetwork.com/assets/sfyreadgcq2t/news/A001831E-7D90-447C-A76E-25CA69CDBB2E.jpg?width=900",
+      "img_format": "JPEG",
+      "mode": "RGB",
+      "file_size": 70372,
+      "width": 900,
+      "height": 625,
+      "total_pixels": 562500,
+      "basic_score": 0.8692789292574415,
+      "file_name": "grace-wanjiru_2.jpg"
+    },
+    "llm_score": null
+  },
+  {
+    "query": "Professional portrait of Grace Wanjiru, a Kenyan cultural guide, for team member section",
+    "image_info": {
+      "url": "https://media.aws.iaaf.org/athletes/14289521.jpg",
+      "img_format": "JPEG",
+      "mode": "RGB",
+      "file_size": 14399,
+      "width": 220,
+      "height": 220,
+      "total_pixels": 48400,
+      "basic_score": 0.6774039027401423,
+      "file_name": "grace-wanjiru_8.jpg"
+    },
+    "llm_score": null
+  },
+  {
+    "query": "Professional portrait of Grace Wanjiru, a Kenyan cultural guide, for team member section",
+    "image_info": {
+      "url": "https://media.licdn.com/dms/image/v2/C4D03AQHKNgIsE5T18w/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1660832548347?e=2147483647&v=beta&t=BAa5wUeKT3FphTL4KFKaEh5UOPQHwu_CAa9pApjC2Hk",
+      "img_format": "JPEG",
+      "mode": "RGB",
+      "file_size": 13105,
+      "width": 200,
+      "height": 200,
+      "total_pixels": 40000,
+      "basic_score": 0.6724909865961094,
+      "file_name": "grace-wanjiru_9.jpg"
+    },
+    "llm_score": null
+  },
+  {
+    "query": "Kenya wildlife video thumbnail image for video section",
+    "image_info": {
+      "url": "https://media.gettyimages.com/id/1478757212/video/slow-motion-stunning-herd-of-african-elephants-majestically-walking-across-a-vast-savanna.jpg?s=640x640&k=20&c=WipE1XXAQDvESMo52tJoVXmhn07t5hF8jKqwb9-b5to=",
+      "img_format": "JPEG",
+      "mode": "RGB",
+      "file_size": 76517,
+      "width": 768,
+      "height": 432,
+      "total_pixels": 331776,
+      "basic_score": 0.8020748455562057,
+      "file_name": "kenya-wildlife-video-thumb_1.jpg"
+    },
+    "llm_score": null
+  },
+  {
+    "query": "Kenya wildlife video thumbnail image for video section",
+    "image_info": {
+      "url": "https://media.gettyimages.com/id/1909989104/video/aerial-shot-of-a-herd-of-elephant-and-zebra-african-animal-wildlife-in-masai-mara-in-africa.jpg?s=640x640&k=20&c=0U6skNilm4FAcQsOCJGAM0tSK1ac82GJN6T0CnvDNCM=",
+      "img_format": "JPEG",
+      "mode": "RGB",
+      "file_size": 53755,
+      "width": 768,
+      "height": 432,
+      "total_pixels": 331776,
+      "basic_score": 0.7990245153298355,
+      "file_name": "kenya-wildlife-video-thumb_4.jpg"
+    },
+    "llm_score": null
+  },
+  {
+    "query": "Kenya wildlife video thumbnail image for video section",
+    "image_info": {
+      "url": "https://media.gettyimages.com/id/1478958007/video/giraffes-walking-in-their-natural-habitat-in-nairobi-national-park.jpg?s=640x640&k=20&c=yg_MfTWH9x4Y1-LLbnxG5v3G7GneU2ZcueLGg0vvNrc=",
+      "img_format": "JPEG",
+      "mode": "RGB",
+      "file_size": 48030,
+      "width": 768,
+      "height": 432,
+      "total_pixels": 331776,
+      "basic_score": 0.7982485363581306,
+      "file_name": "kenya-wildlife-video-thumb_8.jpg"
+    },
+    "llm_score": null
+  },
+  {
+    "query": "KATO logo for Kenya Association of Tour Operators certification",
+    "image_info": {
+      "url": "https://pbs.twimg.com/amplify_video_thumb/1978813232820154368/img/OfApTvRgK5LIryw1.jpg",
+      "img_format": "JPEG",
+      "mode": "RGB",
+      "file_size": 48337,
+      "width": 1200,
+      "height": 675,
+      "total_pixels": 810000,
+      "basic_score": 0.9139382570532905,
+      "file_name": "kato-logo_3.jpg"
+    },
+    "llm_score": null
+  },
+  {
+    "query": "KATO logo for Kenya Association of Tour Operators certification",
+    "image_info": {
+      "url": "https://i0.wp.com/travelshoppe.co.ke/wp-content/uploads/2022/08/KATO-LOGO-TS.jpg?fit=693%2C392&ssl=1",
+      "img_format": "JPEG",
+      "mode": "CMYK",
+      "file_size": 179120,
+      "width": 693,
+      "height": 392,
+      "total_pixels": 271656,
+      "basic_score": 0.7951630176277003,
+      "file_name": "kato-logo_6.jpg"
+    },
+    "llm_score": null
+  },
+  {
+    "query": "KATO logo for Kenya Association of Tour Operators certification",
+    "image_info": {
+      "url": "https://katokenya.org/wp-content/uploads/2024/10/Kenya-Association-of-Tour-Operators-2024-AGM-Partners-1.png",
+      "img_format": "PNG",
+      "mode": "P",
+      "file_size": 38299,
+      "width": 500,
+      "height": 500,
+      "total_pixels": 250000,
+      "basic_score": 0.7596473883618806,
+      "file_name": "kato-logo_8.png"
+    },
+    "llm_score": null
+  },
+  {
+    "query": "Lamu beach holiday image for special offers section",
+    "image_info": {
+      "url": "https://images.squarespace-cdn.com/content/v1/52ee7408e4b0d94885a12285/1550513306937-NTPIQ05SQKID9GH89IH9/Spiritedpursuit_leelitumbe-106_lamu_kenya.jpg",
+      "img_format": "WEBP",
+      "mode": "RGB",
+      "file_size": 66662,
+      "width": 1200,
+      "height": 800,
+      "total_pixels": 960000,
+      "basic_score": 0.9397348548628396,
+      "file_name": "lamu-beach_5.jpg"
+    },
+    "llm_score": null
+  },
+  {
+    "query": "Lamu beach holiday image for special offers section",
+    "image_info": {
+      "url": "https://www.go2africa.com/wp-content/uploads/2017/09/manda_bay_siesta.jpg",
+      "img_format": "JPEG",
+      "mode": "RGB",
+      "file_size": 136794,
+      "width": 900,
+      "height": 600,
+      "total_pixels": 540000,
+      "basic_score": 0.8718600293293782,
+      "file_name": "lamu-beach_9.jpg"
+    },
+    "llm_score": null
+  },
+  {
+    "query": "Lamu beach holiday image for special offers section",
+    "image_info": {
+      "url": "https://www.go2africa.com/wp-content/uploads/2017/08/lamu1.jpg",
+      "img_format": "WEBP",
+      "mode": "RGB",
+      "file_size": 250738,
+      "width": 1920,
+      "height": 678,
+      "total_pixels": 1301760,
+      "basic_score": 0.867303981017546,
+      "file_name": "lamu-beach_0.jpg"
+    },
+    "llm_score": null
+  },
+  {
+    "query": "Masai Mara special offer package image for promotional section",
+    "image_info": {
+      "url": "https://global-safaris.com/wp-content/uploads/2022/07/G2-1-724x1024.png",
+      "img_format": "PNG",
+      "mode": "RGBA",
+      "file_size": 930059,
+      "width": 724,
+      "height": 1024,
+      "total_pixels": 741376,
+      "basic_score": 0.9250031366674683,
+      "file_name": "masai-mara-offer_1.png"
+    },
+    "llm_score": null
+  },
+  {
+    "query": "Masai Mara special offer package image for promotional section",
+    "image_info": {
+      "url": "https://www.africasafaribookingsadvisor.com/wp-content/uploads/2021/06/4-Days-Masai-Mara-Safari-by-Air3-960x1149.jpeg",
+      "img_format": "JPEG",
+      "mode": "RGB",
+      "file_size": 202041,
+      "width": 960,
+      "height": 1149,
+      "total_pixels": 1103040,
+      "basic_score": 0.9180394921504873,
+      "file_name": "masai-mara-offer_4.jpeg"
+    },
+    "llm_score": null
+  },
+  {
+    "query": "Masai Mara special offer package image for promotional section",
+    "image_info": {
+      "url": "https://www.masaimara.in/wp-content/uploads/2022/12/image3-4.jpg",
+      "img_format": "JPEG",
+      "mode": "RGB",
+      "file_size": 62705,
+      "width": 830,
+      "height": 555,
+      "total_pixels": 460650,
+      "basic_score": 0.8416217056806664,
+      "file_name": "masai-mara-offer_8.jpg"
+    },
+    "llm_score": null
+  },
+  {
+    "query": "Amboseli special offer package image for promotional section",
+    "image_info": {
+      "url": "https://s3.amazonaws.com/cdn.micato.com/wp-content/uploads/2018/09/07224321/amboseli-national-park-1110x700.jpg",
+      "img_format": "JPEG",
+      "mode": "RGB",
+      "file_size": 115971,
+      "width": 1110,
+      "height": 700,
+      "total_pixels": 777000,
+      "basic_score": 0.9154142671246429,
+      "file_name": "amboseli-offer_5.jpg"
+    },
+    "llm_score": null
+  },
+  {
+    "query": "Amboseli special offer package image for promotional section",
+    "image_info": {
+      "url": "https://naicef.com/wp-content/uploads/2024/12/Amboseli-National-Park-Amboseli-National-Park-Kenya-Amboseli-National-Park-hotels-visit-Amboseli-National-Park-Amboseli-National-Park-Elephants.jpg",
+      "img_format": "JPEG",
+      "mode": "RGB",
+      "file_size": 99592,
+      "width": 1400,
+      "height": 655,
+      "total_pixels": 917000,
+      "basic_score": 0.9003043836835443,
+      "file_name": "amboseli-offer_4.jpg"
+    },
+    "llm_score": null
+  },
+  {
+    "query": "Amboseli special offer package image for promotional section",
+    "image_info": {
+      "url": "https://www.armanitoursandtravel.com/wp-content/uploads/2025/02/Amboseli-national-park-safari.jpg",
+      "img_format": "JPEG",
+      "mode": "RGB",
+      "file_size": 276519,
+      "width": 1600,
+      "height": 1066,
+      "total_pixels": 1705600,
+      "basic_score": 0.8393234610065178,
+      "file_name": "amboseli-offer_3.jpg"
+    },
+    "llm_score": null
+  },
+  {
+    "query": "Amboseli elephants with Mount Kilimanjaro background for website showcase",
+    "image_info": {
+      "url": "https://pangolinphoto.com/wp-content/uploads/2023/08/Janine-Krayer-Africa_s-highest-peak-elephants-in-Kenya-Amboseli-National-Park-Mount-Kilimanjaro-.webp",
+      "img_format": "WEBP",
+      "mode": "RGB",
+      "file_size": 201146,
+      "width": 1280,
+      "height": 853,
+      "total_pixels": 1091840,
+      "basic_score": 0.952936227978317,
+      "file_name": "amboseli-elephants-1_4.webp"
+    },
+    "llm_score": null
+  },
+  {
+    "query": "Amboseli elephants with Mount Kilimanjaro background for website showcase",
+    "image_info": {
+      "url": "https://www.explore.com/img/gallery/the-best-way-to-view-mount-kilimanjaro-in-kenya/l-intro-1673982083.jpg",
+      "img_format": "JPEG",
+      "mode": "RGB",
+      "file_size": 509174,
+      "width": 1600,
+      "height": 900,
+      "total_pixels": 1440000,
+      "basic_score": 0.9179179197790772,
+      "file_name": "amboseli-elephants-1_8.jpg"
+    },
+    "llm_score": null
+  },
+  {
+    "query": "Amboseli elephants with Mount Kilimanjaro background for website showcase",
+    "image_info": {
+      "url": "https://www.tranquilkilimanjaro.com/wp-content/uploads/00da711c8f685ffd98af6aecb70c68fbf2a3b520-1600x800-1.jpg",
+      "img_format": "JPEG",
+      "mode": "RGB",
+      "file_size": 151328,
+      "width": 1600,
+      "height": 800,
+      "total_pixels": 1280000,
+      "basic_score": 0.9065679382100508,
+      "file_name": "amboseli-elephants-1_3.jpg"
+    },
+    "llm_score": null
+  },
+  {
+    "query": "Kenya highlights tour package image showing multiple destinations",
+    "image_info": {
+      "url": "https://i0.wp.com/ellamckendrick.com/wp-content/uploads/2024/10/kenya-map-v3.webp?resize=1024%2C768&ssl=1",
+      "img_format": "PNG",
+      "mode": "P",
+      "file_size": 314826,
+      "width": 1024,
+      "height": 768,
+      "total_pixels": 786432,
+      "basic_score": 0.9266454674398525,
+      "file_name": "kenya-highlights_1.webp"
+    },
+    "llm_score": null
+  },
+  {
+    "query": "Kenya highlights tour package image showing multiple destinations",
+    "image_info": {
+      "url": "https://cdn.tourradar.com/s3/serp/1500x800/2750_2e3tuA6G.jpg",
+      "img_format": "JPEG",
+      "mode": "RGB",
+      "file_size": 98910,
+      "width": 1500,
+      "height": 800,
+      "total_pixels": 1200000,
+      "basic_score": 0.9219595530290406,
+      "file_name": "kenya-highlights_4.jpg"
+    },
+    "llm_score": null
+  },
+  {
+    "query": "Kenya highlights tour package image showing multiple destinations",
+    "image_info": {
+      "url": "https://i0.wp.com/ellamckendrick.com/wp-content/uploads/2024/01/5-day-kenya-highlights-itinerary.webp?resize=1024%2C768&ssl=1",
+      "img_format": "JPEG",
+      "mode": "RGB",
+      "file_size": 128559,
+      "width": 1024,
+      "height": 768,
+      "total_pixels": 786432,
+      "basic_score": 0.9199441589302291,
+      "file_name": "kenya-highlights_3.webp"
+    },
+    "llm_score": null
+  },
+  {
+    "query": "Masai Mara hero banner image for website slider with wildlife",
+    "image_info": {
+      "url": "https://c8.alamy.com/comp/P2Y4M0/horizontal-banner-of-a-roaring-male-lion-in-the-masai-mara-kenya-side-view-P2Y4M0.jpg",
+      "img_format": "JPEG",
+      "mode": "RGB",
+      "file_size": 200319,
+      "width": 1300,
+      "height": 821,
+      "total_pixels": 1067300,
+      "basic_score": 0.9415642238211136,
+      "file_name": "masai-mara-hero-2_4.jpg"
+    },
+    "llm_score": null
+  },
+  {
+    "query": "Masai Mara hero banner image for website slider with wildlife",
+    "image_info": {
+      "url": "https://www.masaimara.travel/images/african-lions-masai-mara-kenya.jpg",
+      "img_format": "JPEG",
+      "mode": "RGB",
+      "file_size": 141824,
+      "width": 1250,
+      "height": 700,
+      "total_pixels": 875000,
+      "basic_score": 0.9303824978164542,
+      "file_name": "masai-mara-hero-2_0.jpg"
+    },
+    "llm_score": null
+  },
+  {
+    "query": "Masai Mara hero banner image for website slider with wildlife",
+    "image_info": {
+      "url": "https://i0.wp.com/ellamckendrick.com/wp-content/uploads/2025/03/maasai-mara-kenya-p1011809.webp?resize=1024%2C769&ssl=1",
+      "img_format": "JPEG",
+      "mode": "RGB",
+      "file_size": 229966,
+      "width": 1024,
+      "height": 769,
+      "total_pixels": 787456,
+      "basic_score": 0.9296637771461548,
+      "file_name": "masai-mara-hero-2_6.webp"
+    },
+    "llm_score": null
+  },
+  {
+    "query": "TCAA logo for Tourism and Travel Alliance of Africa certification",
+    "image_info": {
+      "url": "https://acacia-africa.com/img/cms/accreditations/ABTA%20-%20Acacia%20Africa_crop640x480.png",
+      "img_format": "PNG",
+      "mode": "RGBA",
+      "file_size": 48550,
+      "width": 640,
+      "height": 480,
+      "total_pixels": 307200,
+      "basic_score": 0.7806903814205357,
+      "file_name": "tcaa-logo_6.png"
+    },
+    "llm_score": null
+  },
+  {
+    "query": "TCAA logo for Tourism and Travel Alliance of Africa certification",
+    "image_info": {
+      "url": "https://sttakenya.org/wp-content/uploads/2022/02/STTA-Updated-Logo.jpeg",
+      "img_format": "JPEG",
+      "mode": "RGB",
+      "file_size": 18536,
+      "width": 595,
+      "height": 420,
+      "total_pixels": 249900,
+      "basic_score": 0.7632689723929451,
+      "file_name": "tcaa-logo_7.jpeg"
+    },
+    "llm_score": null
+  },
+  {
+    "query": "TCAA logo for Tourism and Travel Alliance of Africa certification",
+    "image_info": {
+      "url": "https://www.biz-ads.co.za/wp-content/uploads/TCAA-logo-upload.jpg",
+      "img_format": "JPEG",
+      "mode": "RGB",
+      "file_size": 68733,
+      "width": 600,
+      "height": 340,
+      "total_pixels": 204000,
+      "basic_score": 0.7551019834608764,
+      "file_name": "tcaa-logo_9.jpg"
+    },
+    "llm_score": null
+  },
+  {
+    "query": "Eco tourism certification logo for responsible tourism",
+    "image_info": {
+      "url": "https://www.earth-changers.com/wp-content/uploads/elementor/thumbs/Certification-logos-qzpnqm7wefdmycrw1beejhs9r781oeloyhw6kkpcu0.png",
+      "img_format": "PNG",
+      "mode": "RGBA",
+      "file_size": 204396,
+      "width": 1162,
+      "height": 684,
+      "total_pixels": 794808,
+      "basic_score": 0.9162569728766846,
+      "file_name": "eco-tourism-logo_8.png"
+    },
+    "llm_score": null
+  },
+  {
+    "query": "Eco tourism certification logo for responsible tourism",
+    "image_info": {
+      "url": "https://www.twoweeksincostarica.com/wp-content/uploads/2023/03/sustainable-tourism-program-costa-rica.jpg",
+      "img_format": "JPEG",
+      "mode": "RGB",
+      "file_size": 20064,
+      "width": 700,
+      "height": 466,
+      "total_pixels": 326200,
+      "basic_score": 0.7929957955970425,
+      "file_name": "eco-tourism-logo_9.jpg"
+    },
+    "llm_score": null
+  },
+  {
+    "query": "Eco tourism certification logo for responsible tourism",
+    "image_info": {
+      "url": "https://storage.ghadiscovery.com/cdn-cgi/image/width=1920,f=auto,g=auto,fit=scale-down/img/images/3/9/5/5/815593-1-eng-GB/0b44ea5ee19f-10-Eco-Certification-Malta_.jpg",
+      "img_format": "JPEG",
+      "mode": "RGB",
+      "file_size": 20036,
+      "width": 566,
+      "height": 489,
+      "total_pixels": 276774,
+      "basic_score": 0.7697204193922358,
+      "file_name": "eco-tourism-logo_2.jpg"
+    },
+    "llm_score": null
+  },
+  {
+    "query": "Mudanda Rock Tsavo panoramic view",
+    "image_info": {
+      "url": "https://c8.alamy.com/comp/2K575BF/kenya-tsavo-east-national-park-mudanda-rock-at-sunrise-aerial-view-2K575BF.jpg",
+      "img_format": "JPEG",
+      "mode": "RGB",
+      "file_size": 196417,
+      "width": 1300,
+      "height": 956,
+      "total_pixels": 1242800,
+      "basic_score": 0.9300644949025199,
+      "file_name": "mudanda-rock_4.jpg"
+    },
+    "llm_score": null
+  },
+  {
+    "query": "Mudanda Rock Tsavo panoramic view",
+    "image_info": {
+      "url": "https://www.superstock.com/cdn/4413/Comp/4413-61371.jpg",
+      "img_format": "JPEG",
+      "mode": "RGB",
+      "file_size": 201805,
+      "width": 1024,
+      "height": 679,
+      "total_pixels": 695296,
+      "basic_score": 0.9126181819089938,
+      "file_name": "mudanda-rock_7.jpg"
+    },
+    "llm_score": null
+  },
+  {
+    "query": "Mudanda Rock Tsavo panoramic view",
+    "image_info": {
+      "url": "https://lp-cms-production.imgix.net/2023-07/shutterstock88362142.jpg?fit=crop&ar=1%3A1&w=1200&auto=format&q=75",
+      "img_format": "JPEG",
+      "mode": "RGB",
+      "file_size": 352067,
+      "width": 1200,
+      "height": 1200,
+      "total_pixels": 1440000,
+      "basic_score": 0.898560620721527,
+      "file_name": "mudanda-rock_8.jpg"
+    },
+    "llm_score": null
+  },
+  {
+    "query": "Lugard Falls Tsavo water rapids dramatic",
+    "image_info": {
+      "url": "https://bosorensen.com/xbs/wp-content/uploads/2015/10/Lugard-Falls-Galana-River-v2.jpg",
+      "img_format": "JPEG",
+      "mode": "RGB",
+      "file_size": 577871,
+      "width": 1000,
+      "height": 1000,
+      "total_pixels": 1000000,
+      "basic_score": 0.9604318640364097,
+      "file_name": "lugard-falls_8.jpg"
+    },
+    "llm_score": null
+  },
+  {
+    "query": "Lugard Falls Tsavo water rapids dramatic",
+    "image_info": {
+      "url": "https://www.kenyatsavosafaris.com/wp-content/uploads/2024/02/Lugard-Falls.jpg",
+      "img_format": "JPEG",
+      "mode": "RGB",
+      "file_size": 490608,
+      "width": 1280,
+      "height": 960,
+      "total_pixels": 1228800,
+      "basic_score": 0.9513998513303272,
+      "file_name": "lugard-falls_2.jpg"
+    },
+    "llm_score": null
+  },
+  {
+    "query": "Lugard Falls Tsavo water rapids dramatic",
+    "image_info": {
+      "url": "https://c8.alamy.com/comp/BF5N9P/lugard-falls-tsavo-national-park-kenya-africa-BF5N9P.jpg",
+      "img_format": "JPEG",
+      "mode": "RGB",
+      "file_size": 167747,
+      "width": 1300,
+      "height": 956,
+      "total_pixels": 1242800,
+      "basic_score": 0.9275725718617063,
+      "file_name": "lugard-falls_5.jpg"
+    },
+    "llm_score": null
+  },
+  {
+    "query": "Lamu traditional architecture Swahili buildings coral stone",
+    "image_info": {
+      "url": "https://cdn.shopify.com/s/files/1/0071/4974/8282/files/sandylamu.jpg?v=1656001296",
+      "img_format": "JPEG",
+      "mode": "RGB",
+      "file_size": 159028,
+      "width": 1080,
+      "height": 1253,
+      "total_pixels": 1353240,
+      "basic_score": 0.8870173233802201,
+      "file_name": "lamu-architecture_2.jpg"
+    },
+    "llm_score": null
+  },
+  {
+    "query": "Lamu traditional architecture Swahili buildings coral stone",
+    "image_info": {
+      "url": "https://cdn.shopify.com/s/files/1/0071/4974/8282/files/discover_lamu.jpg?v=1655816778",
+      "img_format": "JPEG",
+      "mode": "RGB",
+      "file_size": 325140,
+      "width": 1080,
+      "height": 1349,
+      "total_pixels": 1456920,
+      "basic_score": 0.8739809058943988,
+      "file_name": "lamu-architecture_0.jpg"
+    },
+    "llm_score": null
+  },
+  {
+    "query": "Lamu traditional architecture Swahili buildings coral stone",
+    "image_info": {
+      "url": "https://preview.redd.it/1gcobqwbutx71.jpg?auto=webp&s=83090e538431f104ce38410be3732b2c858ff9b1",
+      "img_format": "JPEG",
+      "mode": "RGB",
+      "file_size": 48019,
+      "width": 553,
+      "height": 369,
+      "total_pixels": 204057,
+      "basic_score": 0.7520714284000276,
+      "file_name": "lamu-architecture_4.jpg"
+    },
+    "llm_score": null
+  },
+  {
+    "query": "Mzima Springs crystal clear water underwater view",
+    "image_info": {
+      "url": "https://c8.alamy.com/comp/A45AGW/mzima-springs-tsavo-west-national-park-kenya-east-africa-A45AGW.jpg",
+      "img_format": "JPEG",
+      "mode": "RGB",
+      "file_size": 181237,
+      "width": 1300,
+      "height": 948,
+      "total_pixels": 1232400,
+      "basic_score": 0.9298523474553643,
+      "file_name": "mzima-springs_2.jpg"
+    },
+    "llm_score": null
+  },
+  {
+    "query": "Mzima Springs crystal clear water underwater view",
+    "image_info": {
+      "url": "https://c8.alamy.com/comp/A1A8J0/mzima-springs-tsavo-west-national-park-kenya-east-africa-A1A8J0.jpg",
+      "img_format": "JPEG",
+      "mode": "RGB",
+      "file_size": 173869,
+      "width": 1300,
+      "height": 948,
+      "total_pixels": 1232400,
+      "basic_score": 0.9292075838916639,
+      "file_name": "mzima-springs_5.jpg"
+    },
+    "llm_score": null
+  },
+  {
+    "query": "Mzima Springs crystal clear water underwater view",
+    "image_info": {
+      "url": "https://c8.alamy.com/comp/D3KKBH/underwater-viewing-chamber-mzima-springs-tsavo-west-national-park-D3KKBH.jpg",
+      "img_format": "JPEG",
+      "mode": "RGB",
+      "file_size": 126617,
+      "width": 1300,
+      "height": 955,
+      "total_pixels": 1241500,
+      "basic_score": 0.9239950937172172,
+      "file_name": "mzima-springs_8.jpg"
+    },
+    "llm_score": null
+  },
+  {
+    "query": "Tsavo red elephants with reddish soil background",
+    "image_info": {
+      "url": "https://margaretweiss.com.au/wp-content/uploads/2024/06/FEATURED-IMAGE-1.jpg",
+      "img_format": "JPEG",
+      "mode": "RGB",
+      "file_size": 442116,
+      "width": 1080,
+      "height": 720,
+      "total_pixels": 777600,
+      "basic_score": 0.944583706591804,
+      "file_name": "tsavo-red-elephants_2.jpg"
+    },
+    "llm_score": null
+  },
+  {
+    "query": "Tsavo red elephants with reddish soil background",
+    "image_info": {
+      "url": "https://tsavotrust.org/wp-content/uploads/2023/01/20220132-1241-ele-ab1-feeding-t2-cm.jpg",
+      "img_format": "JPEG",
+      "mode": "RGB",
+      "file_size": 280317,
+      "width": 1000,
+      "height": 666,
+      "total_pixels": 666000,
+      "basic_score": 0.9142260075207285,
+      "file_name": "tsavo-red-elephants_5.jpg"
+    },
+    "llm_score": null
+  },
+  {
+    "query": "Tsavo red elephants with reddish soil background",
+    "image_info": {
+      "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgq5c54uI_6nhY7zQACGflizWELIWvNsA_yuSGDWkSpRWAfMvNCbguP4012-ps-BOOlPAu-KIJptmaAxK5cRfX62U5wHQdnqDpwmkHjkEzonkpoeMdHNekyWNOIbQrLRTHioARspXq1Fh9x/s1600/red+elephant+elephants+tsavo+kenya+africa+8.jpg",
+      "img_format": "JPEG",
+      "mode": "RGB",
+      "file_size": 119787,
+      "width": 1024,
+      "height": 685,
+      "total_pixels": 701440,
+      "basic_score": 0.9056428270138026,
+      "file_name": "tsavo-red-elephants_3.jpg"
+    },
+    "llm_score": null
   }
 ]
