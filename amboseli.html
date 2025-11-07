@@ -1,0 +1,819 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amboseli National Park - Kenya Safari Tours | Cavin Otieno</title>
+    <meta name="description" content="Explore Amboseli National Park with Kenya Safari Tours. Famous for elephant herds and Mount Kilimanjaro views. Book your Amboseli safari with expert guide Cavin Otieno.">
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    
+    <!-- Bootstrap 5 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <!-- Bootstrap Datepicker -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-datepicker@1.9.0/dist/css/bootstrap-datepicker.min.css">
+    <!-- AOS Animation -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <!-- Bootstrap Datepicker -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap-datepicker@1.9.0/dist/js/bootstrap-datepicker.min.js"></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">
+                <img src="images/kenya-logo.png" alt="Kenya Safari Tours" class="logo">
+                <span class="brand-text">Kenya Safari Tours</span>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle active" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown">
+                            Destinations
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="destinations.html">All Destinations</a></li>
+                            <li><a class="dropdown-item" href="masai-mara.html">Masai Mara</a></li>
+                            <li><a class="dropdown-item" href="amboseli.html">Amboseli</a></li>
+                            <li><a class="dropdown-item" href="mount-kenya.html">Mount Kenya</a></li>
+                            <li><a class="dropdown-item" href="lamu.html">Lamu Island</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="services.html">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="destination-hero" style="background-image: url('images/amboseli_elephants_2.jpg')">
+        <div class="hero-overlay"></div>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8">
+                    <h1 class="hero-title text-white" data-aos="fade-up">Amboseli National Park</h1>
+                    <p class="hero-subtitle text-white" data-aos="fade-up" data-aos-delay="200">Home to Africa's Largest Elephants with Kilimanjaro Views</p>
+                    <div class="hero-meta" data-aos="fade-up" data-aos-delay="400">
+                        <span class="badge bg-success me-3"><i class="fas fa-map-marker-alt"></i> Southern Kenya</span>
+                        <span class="badge bg-info me-3"><i class="fas fa-ruler"></i> 392 km²</span>
+                        <span class="badge bg-warning text-dark"><i class="fas fa-thermometer-half"></i> 18-30°C</span>
+                    </div>
+                    <a href="#booking" class="btn btn-success btn-lg mt-4" data-aos="fade-up" data-aos-delay="600">Book Now</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Quick Info -->
+    <section class="quick-info py-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 col-md-6 mb-3" data-aos="fade-up">
+                    <div class="info-card text-center">
+                        <i class="fas fa-clock text-success mb-2"></i>
+                        <h6>Best Time to Visit</h6>
+                        <p>June - October, January - February</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-3" data-aos="fade-up" data-aos-delay="200">
+                    <div class="info-card text-center">
+                        <i class="fas fa-binoculars text-success mb-2"></i>
+                        <h6>Wildlife</h6>
+                        <p>Elephants, Lions, Cheetahs, Zebras</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-3" data-aos="fade-up" data-aos-delay="400">
+                    <div class="info-card text-center">
+                        <i class="fas fa-bird text-success mb-2"></i>
+                        <h6>Bird Species</h6>
+                        <p>Over 400 bird species</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-3" data-aos="fade-up" data-aos-delay="600">
+                    <div class="info-card text-center">
+                        <i class="fas fa-mountain text-success mb-2"></i>
+                        <h6>Iconic View</h6>
+                        <p>Mount Kilimanjaro</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Amboseli -->
+    <section class="about-destination py-5">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6 mb-4" data-aos="fade-right">
+                    <img src="images/amboseli_elephants_2.jpg" alt="Amboseli Elephants" class="img-fluid rounded-3 shadow">
+                </div>
+                <div class="col-lg-6" data-aos="fade-left">
+                    <h2 class="section-title">About Amboseli National Park</h2>
+                    <p class="lead">Located in southern Kenya near the Tanzanian border, Amboseli National Park is renowned for its spectacular views of Mount Kilimanjaro and its large herds of African elephants.</p>
+                    
+                    <p>Known as the "Land of Giants," Amboseli is famous for having some of the largest elephants in Africa. The park's name comes from a Maasai word meaning "springs of water," reflecting the presence of seasonal swamps and lakes that attract diverse wildlife throughout the year.</p>
+                    
+                    <p>The park offers excellent opportunities to see the Big Five, with particularly impressive elephant populations. The backdrop of Mount Kilimanjaro creates one of Africa's most iconic safari landscapes, providing stunning photographic opportunities.</p>
+
+                    <div class="highlights">
+                        <h4>Park Highlights</h4>
+                        <ul class="list-unstyled">
+                            <li><i class="fas fa-check text-success me-2"></i>Large elephant herds with iconic tuskers</li>
+                            <li><i class="fas fa-check text-success me-2"></i>Panoramic views of Mount Kilimanjaro</li>
+                            <li><i class="fas fa-check text-success me-2"></i>Observation Hill for 360° park views</li>
+                            <li><i class="fas fa-check text-success me-2"></i>Swamps and lakes attracting diverse wildlife</li>
+                            <li><i class="fas fa-check text-success me-2"></i>Excellent bird-watching opportunities</li>
+                            <li><i class="fas fa-check text-success me-2"></i>Maasai culture and traditions</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Wildlife Section -->
+    <section class="wildlife-section py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center mb-5">
+                    <h2 class="section-title">Wildlife in Amboseli</h2>
+                    <p class="section-subtitle">Discover the incredible animals that call Amboseli home</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-4 mb-4" data-aos="fade-up">
+                    <div class="wildlife-card">
+                        <div class="wildlife-icon">
+                            <i class="fas fa-paw"></i>
+                        </div>
+                        <h4>African Elephants</h4>
+                        <p>Home to some of the largest elephant herds in Africa, with bull elephants having impressive tusks. The park's elephants are known for their large size and are often seen wallowing in the mud.</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 mb-4" data-aos="fade-up" data-aos-delay="200">
+                    <div class="wildlife-card">
+                        <div class="wildlife-icon">
+                            <i class="fas fa-crown"></i>
+                        </div>
+                        <h4>Big Five</h4>
+                        <p>Spot lions, leopards, elephants, buffalo, and rhinoceros in their natural habitat. The park's open grasslands make wildlife viewing exceptional.</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 mb-4" data-aos="fade-up" data-aos-delay="400">
+                    <div class="wildlife-card">
+                        <div class="wildlife-icon">
+                            <i class="fas fa-bird"></i>
+                        </div>
+                        <h4>Bird Species</h4>
+                        <p>Over 400 bird species including pelicans, kingfishers, hornbills, and various species of eagles and vultures that soar over the park.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Activities -->
+    <section class="activities-section py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center mb-5">
+                    <h2 class="section-title">Activities in Amboseli</h2>
+                    <p class="section-subtitle">Choose from a variety of exciting activities</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-3 col-md-6 mb-4" data-aos="fade-up">
+                    <div class="activity-card">
+                        <div class="activity-icon">
+                            <i class="fas fa-truck"></i>
+                        </div>
+                        <h4>Game Drives</h4>
+                        <p>Early morning and late afternoon game drives to spot wildlife when they're most active.</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-4" data-aos="fade-up" data-aos-delay="200">
+                    <div class="activity-card">
+                        <div class="activity-icon">
+                            <i class="fas fa-mountain"></i>
+                        </div>
+                        <h4>Observation Hill</h4>
+                        <p>Hike up Observation Hill for panoramic 360° views of the entire park and Mount Kilimanjaro.</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-4" data-aos="fade-up" data-aos-delay="400">
+                    <div class="activity-card">
+                        <div class="activity-icon">
+                            <i class="fas fa-binoculars"></i>
+                        </div>
+                        <h4>Bird Watching</h4>
+                        <p>Guided bird watching tours to spot the over 400 bird species that call Amboseli home.</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-4" data-aos="fade-up" data-aos-delay="600">
+                    <div class="activity-card">
+                        <div class="activity-icon">
+                            <i class="fas fa-users"></i>
+                        </div>
+                        <h4>Cultural Visits</h4>
+                        <p>Visit Maasai villages to learn about traditional culture, crafts, and daily life.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Accommodation -->
+    <section class="accommodation-section py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center mb-5">
+                    <h2 class="section-title">Where to Stay</h2>
+                    <p class="section-subtitle">Comfortable accommodations for your Amboseli adventure</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-4 mb-4" data-aos="fade-up">
+                    <div class="accommodation-card">
+                        <img src="images/luxury-lodge.jpg" alt="Ol Tukai Lodge" class="accommodation-img">
+                        <div class="accommodation-content">
+                            <h4>Ol Tukai Lodge</h4>
+                            <p class="accommodation-type">Luxury Lodge</p>
+                            <p>Located in the heart of Amboseli with direct views of Mount Kilimanjaro and the elephant herds.</p>
+                            <div class="accommodation-features">
+                                <span class="feature">Swimming Pool</span>
+                                <span class="feature">Restaurant</span>
+                                <span class="feature">Game Drives</span>
+                            </div>
+                            <div class="accommodation-price">From KSh 25,000/night</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 mb-4" data-aos="fade-up" data-aos-delay="200">
+                    <div class="accommodation-card">
+                        <img src="images/tented-camp.jpg" alt="Amboseli Serena Safari Lodge" class="accommodation-img">
+                        <div class="accommodation-content">
+                            <h4>Amboseli Serena Safari Lodge</h4>
+                            <p class="accommodation-type">Safari Lodge</p>
+                            <p>Perched on a hill with panoramic views of the park and excellent wildlife viewing opportunities.</p>
+                            <div class="accommodation-features">
+                                <span class="feature">Panoramic Views</span>
+                                <span class="feature">Spa</span>
+                                <span class="feature">Conference Facilities</span>
+                            </div>
+                            <div class="accommodation-price">From KSh 18,000/night</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 mb-4" data-aos="fade-up" data-aos-delay="400">
+                    <div class="accommodation-card">
+                        <img src="images/tent-camp.jpg" alt="Amboseli Sopa Lodge" class="accommodation-img">
+                        <div class="accommodation-content">
+                            <h4>Amboseli Sopa Lodge</h4>
+                            <p class="accommodation-type">Budget Lodge</p>
+                            <p>Comfortable and affordable accommodation with excellent wildlife viewing from the grounds.</p>
+                            <div class="accommodation-features">
+                                <span class="feature">Wildlife Viewing</span>
+                                <span class="feature">Swimming Pool</span>
+                                <span class="feature">Restaurant</span>
+                            </div>
+                            <div class="accommodation-price">From KSh 12,000/night</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pricing -->
+    <section class="pricing-section py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center mb-5">
+                    <h2 class="section-title">Amboseli Safari Packages</h2>
+                    <p class="section-subtitle">Choose the perfect package for your Amboseli adventure</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-4 mb-4" data-aos="fade-up">
+                    <div class="pricing-card">
+                        <div class="pricing-header">
+                            <h4>Day Trip</h4>
+                            <div class="price">KSh 12,000</div>
+                            <p>per person</p>
+                        </div>
+                        <div class="pricing-content">
+                            <ul class="pricing-features">
+                                <li><i class="fas fa-check"></i> Full day game drive</li>
+                                <li><i class="fas fa-check"></i> Professional guide</li>
+                                <li><i class="fas fa-check"></i> Park entrance fees</li>
+                                <li><i class="fas fa-check"></i> Light lunch included</li>
+                                <li><i class="fas fa-times"></i> Accommodation</li>
+                            </ul>
+                            <a href="#booking" class="btn btn-outline-primary w-100">Book Now</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 mb-4" data-aos="fade-up" data-aos-delay="200">
+                    <div class="pricing-card popular">
+                        <div class="pricing-badge">Most Popular</div>
+                        <div class="pricing-header">
+                            <h4>3 Days / 2 Nights</h4>
+                            <div class="price">KSh 38,000</div>
+                            <p>per person</p>
+                        </div>
+                        <div class="pricing-content">
+                            <ul class="pricing-features">
+                                <li><i class="fas fa-check"></i> 2 full days game drives</li>
+                                <li><i class="fas fa-check"></i> Professional guide</li>
+                                <li><i class="fas fa-check"></i> Park entrance fees</li>
+                                <li><i class="fas fa-check"></i> Accommodation (2 nights)</li>
+                                <li><i class="fas fa-check"></i> All meals included</li>
+                            </ul>
+                            <a href="#booking" class="btn btn-primary w-100">Book Now</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 mb-4" data-aos="fade-up" data-aos-delay="400">
+                    <div class="pricing-card">
+                        <div class="pricing-header">
+                            <h4>5 Days / 4 Nights</h4>
+                            <div class="price">KSh 65,000</div>
+                            <p>per person</p>
+                        </div>
+                        <div class="pricing-content">
+                            <ul class="pricing-features">
+                                <li><i class="fas fa-check"></i> 4 full days game drives</li>
+                                <li><i class="fas fa-check"></i> Professional guide</li>
+                                <li><i class="fas fa-check"></i> Park entrance fees</li>
+                                <li><i class="fas fa-check"></i> Luxury accommodation</li>
+                                <li><i class="fas fa-check"></i> All meals & activities</li>
+                                <li><i class="fas fa-check"></i> Cultural visits</li>
+                            </ul>
+                            <a href="#booking" class="btn btn-outline-primary w-100">Book Now</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery -->
+    <section class="gallery-section py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center mb-5">
+                    <h2 class="section-title">Amboseli Photo Gallery</h2>
+                    <p class="section-subtitle">See what awaits you in Amboseli</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-4 col-md-6 mb-4" data-aos="zoom-in">
+                    <div class="gallery-item">
+                        <img src="images/amboseli-elephants-1.jpg" alt="Amboseli Elephants" class="gallery-img">
+                        <div class="gallery-overlay">
+                            <h5>Elephant Herds</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4" data-aos="zoom-in" data-aos-delay="200">
+                    <div class="gallery-item">
+                        <img src="images/amboseli-offer.jpg" alt="Kilimanjaro View" class="gallery-img">
+                        <div class="gallery-overlay">
+                            <h5>Kilimanjaro Views</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4" data-aos="zoom-in" data-aos-delay="400">
+                    <div class="gallery-item">
+                        <img src="images/amboseli_elephants_2.jpg" alt="Amboseli Landscape" class="gallery-img">
+                        <div class="gallery-overlay">
+                            <h5>Pristine Landscapes</h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Booking Form -->
+    <section id="booking" class="booking-section py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 mx-auto">
+                    <div class="booking-card">
+                        <div class="row">
+                            <div class="col-12 text-center mb-4">
+                                <h2 class="section-title">Book Your Amboseli Safari</h2>
+                                <p class="section-subtitle">Get ready for an unforgettable wildlife adventure</p>
+                            </div>
+                        </div>
+                        <form id="bookingForm">
+                            <div class="row">
+                                <div class="col-md-6 mb-3">
+                                    <label for="name" class="form-label">Full Name</label>
+                                    <input type="text" class="form-control" id="name" required>
+                                </div>
+                                <div class="col-md-6 mb-3">
+                                    <label for="email" class="form-label">Email</label>
+                                    <input type="email" class="form-control" id="email" required>
+                                </div>
+                                <div class="col-md-6 mb-3">
+                                    <label for="phone" class="form-label">Phone</label>
+                                    <input type="tel" class="form-control" id="phone" required>
+                                </div>
+                                <div class="col-md-6 mb-3">
+                                    <label for="guests" class="form-label">Number of Guests</label>
+                                    <select class="form-select" id="guests" required>
+                                        <option value="">Select guests</option>
+                                        <option value="1">1 Guest</option>
+                                        <option value="2">2 Guests</option>
+                                        <option value="3">3 Guests</option>
+                                        <option value="4">4 Guests</option>
+                                        <option value="5+">5+ Guests</option>
+                                    </select>
+                                </div>
+                                <div class="col-md-6 mb-3">
+                                    <label for="checkin" class="form-label">Check-in Date</label>
+                                    <input type="date" class="form-control" id="checkin" required>
+                                </div>
+                                <div class="col-md-6 mb-3">
+                                    <label for="package" class="form-label">Package</label>
+                                    <select class="form-select" id="package" required>
+                                        <option value="">Select package</option>
+                                        <option value="day-trip">Day Trip - KSh 12,000</option>
+                                        <option value="3-days">3 Days / 2 Nights - KSh 38,000</option>
+                                        <option value="5-days">5 Days / 4 Nights - KSh 65,000</option>
+                                    </select>
+                                </div>
+                                <div class="col-12 mb-3">
+                                    <label for="message" class="form-label">Special Requests</label>
+                                    <textarea class="form-control" id="message" rows="4" placeholder="Any special requests or questions?"></textarea>
+                                </div>
+                                <div class="col-12 text-center">
+                                    <button type="submit" class="btn btn-success btn-lg">Book Amboseli Safari</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 mb-4">
+                    <div class="footer-brand">
+                        <img src="images/kenya-logo.png" alt="Kenya Safari Tours" class="footer-logo">
+                        <h4>Kenya Safari Tours</h4>
+                        <p>Your trusted partner for premium safari experiences and travel adventures in Kenya. Discover the magic of Africa with Cavin Otieno.</p>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-6 mb-4">
+                    <h5>Quick Links</h5>
+                    <ul class="footer-links">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="services.html">Services</a></li>
+                        <li><a href="destinations.html">Destinations</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-2 col-md-6 mb-4">
+                    <h5>Destinations</h5>
+                    <ul class="footer-links">
+                        <li><a href="masai-mara.html">Masai Mara</a></li>
+                        <li><a href="amboseli.html">Amboseli</a></li>
+                        <li><a href="mount-kenya.html">Mount Kenya</a></li>
+                        <li><a href="lamu.html">Lamu Island</a></li>
+                        <li><a href="tsavo.html">Tsavo</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-4 mb-4">
+                    <h5>Contact Information</h5>
+                    <div class="contact-info">
+                        <div class="contact-item">
+                            <i class="fas fa-envelope"></i>
+                            <a href="mailto:cavin.otieno012@gmail.com">cavin.otieno012@gmail.com</a>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-phone"></i>
+                            <a href="tel:+254708101604">+254708101604</a>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span>Westlands Business Park, Ring Road, P.O. Box 12345-00100, Nairobi, Kenya</span>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fab fa-whatsapp"></i>
+                            <a href="https://wa.me/254708101604" target="_blank">WhatsApp Us</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <hr class="footer-divider">
+            <div class="row align-items-center">
+                <div class="col-md-6">
+                    <p class="copyright">© 2025 Kenya Safari Tours by Cavin Otieno. All Rights Reserved.</p>
+                </div>
+                <div class="col-md-6 text-md-end">
+                    <div class="social-links">
+                        <a href="#" class="social-link"><i class="fab fa-facebook"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- WhatsApp Floating Button -->
+    <div class="whatsapp-float">
+        <a href="https://wa.me/254708101604" target="_blank" class="whatsapp-link">
+            <i class="fab fa-whatsapp"></i>
+            <span>Chat on WhatsApp</span>
+        </a>
+    </div>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Bootstrap Datepicker -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-datepicker@1.9.0/dist/css/bootstrap-datepicker.min.css">
+    <!-- AOS Animation -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <!-- Bootstrap Datepicker -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap-datepicker@1.9.0/dist/js/bootstrap-datepicker.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <!-- Custom JS -->
+    <script src="js/main.js"></script>
+
+    <style>
+        /* Amboseli specific styles */
+        .destination-hero {
+            height: 70vh;
+            background-size: cover;
+            background-position: center;
+            position: relative;
+            display: flex;
+            align-items: center;
+        }
+
+        .quick-info {
+            background: var(--light-color);
+        }
+
+        .info-card {
+            padding: 1.5rem;
+            background: var(--white);
+            border-radius: 15px;
+            box-shadow: var(--card-shadow);
+        }
+
+        .info-card i {
+            font-size: 2rem;
+        }
+
+        .highlights {
+            margin-top: 2rem;
+            padding: 1.5rem;
+            background: var(--light-color);
+            border-radius: 15px;
+        }
+
+        .wildlife-card,
+        .activity-card {
+            background: var(--white);
+            padding: 2rem;
+            border-radius: 20px;
+            box-shadow: var(--card-shadow);
+            text-align: center;
+            height: 100%;
+            transition: all 0.3s ease;
+        }
+
+        .wildlife-card:hover,
+        .activity-card:hover {
+            transform: translateY(-5px);
+            box-shadow: var(--hover-shadow);
+        }
+
+        .wildlife-icon,
+        .activity-icon {
+            width: 80px;
+            height: 80px;
+            background: var(--primary-gradient);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 0 auto 1.5rem;
+            color: var(--white);
+            font-size: 2rem;
+        }
+
+        .accommodation-card {
+            background: var(--white);
+            border-radius: 20px;
+            overflow: hidden;
+            box-shadow: var(--card-shadow);
+            transition: all 0.3s ease;
+        }
+
+        .accommodation-card:hover {
+            transform: translateY(-10px);
+            box-shadow: var(--hover-shadow);
+        }
+
+        .accommodation-img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+        }
+
+        .accommodation-content {
+            padding: 1.5rem;
+        }
+
+        .accommodation-type {
+            color: var(--primary-color);
+            font-weight: 600;
+            margin-bottom: 1rem;
+        }
+
+        .accommodation-features {
+            margin: 1rem 0;
+        }
+
+        .feature {
+            display: inline-block;
+            background: var(--primary-color);
+            color: var(--white);
+            padding: 0.3rem 0.8rem;
+            border-radius: 15px;
+            font-size: 0.8rem;
+            margin: 0.2rem;
+        }
+
+        .accommodation-price {
+            font-weight: 600;
+            color: var(--primary-color);
+            font-size: 1.1rem;
+        }
+
+        .pricing-card {
+            background: var(--white);
+            border-radius: 20px;
+            box-shadow: var(--card-shadow);
+            overflow: hidden;
+            transition: all 0.3s ease;
+            position: relative;
+        }
+
+        .pricing-card:hover {
+            transform: translateY(-10px);
+            box-shadow: var(--hover-shadow);
+        }
+
+        .pricing-card.popular {
+            border: 3px solid var(--primary-color);
+        }
+
+        .pricing-badge {
+            position: absolute;
+            top: 1rem;
+            right: 1rem;
+            background: var(--primary-color);
+            color: var(--white);
+            padding: 0.5rem 1rem;
+            border-radius: 25px;
+            font-size: 0.8rem;
+            font-weight: 600;
+        }
+
+        .pricing-header {
+            background: var(--primary-gradient);
+            color: var(--white);
+            padding: 2rem;
+            text-align: center;
+        }
+
+        .pricing-header h4 {
+            margin-bottom: 1rem;
+        }
+
+        .price {
+            font-size: 2.5rem;
+            font-weight: 700;
+        }
+
+        .pricing-content {
+            padding: 2rem;
+        }
+
+        .pricing-features {
+            list-style: none;
+            padding: 0;
+            margin-bottom: 2rem;
+        }
+
+        .pricing-features li {
+            padding: 0.5rem 0;
+            display: flex;
+            align-items: center;
+        }
+
+        .pricing-features i {
+            margin-right: 0.5rem;
+        }
+
+        .pricing-features .fa-check {
+            color: var(--success-color);
+        }
+
+        .pricing-features .fa-times {
+            color: var(--text-color);
+            opacity: 0.5;
+        }
+
+        .gallery-item {
+            position: relative;
+            overflow: hidden;
+            border-radius: 20px;
+            cursor: pointer;
+        }
+
+        .gallery-img {
+            width: 100%;
+            height: 250px;
+            object-fit: cover;
+            transition: all 0.3s ease;
+        }
+
+        .gallery-overlay {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            background: linear-gradient(transparent, rgba(0,0,0,0.8));
+            color: var(--white);
+            padding: 2rem 1.5rem 1.5rem;
+            transform: translateY(100%);
+            transition: all 0.3s ease;
+        }
+
+        .gallery-item:hover .gallery-overlay {
+            transform: translateY(0);
+        }
+
+        .gallery-item:hover .gallery-img {
+            transform: scale(1.1);
+        }
+
+        .booking-card {
+            background: var(--white);
+            border-radius: 20px;
+            padding: 2rem;
+            box-shadow: var(--card-shadow);
+        }
+
+        .booking-section {
+            background: var(--light-color);
+        }
+
+        @media (max-width: 768px) {
+            .destination-hero {
+                height: 50vh;
+            }
+            
+            .pricing-card {
+                margin-bottom: 2rem;
+            }
+        }
+    </style>
+</body>
+</html>
