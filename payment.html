@@ -1,0 +1,483 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payment - Kenya Safari Tours | Secure Payment Processing</title>
+    <meta name="description" content="Secure payment processing for your Kenya safari booking. Accept payments via Stripe, M-PESA, and bank transfer.">
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    
+    <!-- Bootstrap 5 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <!-- AOS Animation -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!-- Stripe -->
+    <script src="https://js.stripe.com/v3/"></script>
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css">
+    
+    <style>
+        .payment-section {
+            background: linear-gradient(135deg, var(--primary-color), #1a472a);
+            min-height: 100vh;
+            color: white;
+            padding: 2rem 0;
+        }
+        
+        .payment-card {
+            background: rgba(255, 255, 255, 0.95);
+            color: var(--text-color);
+            border-radius: 20px;
+            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.2);
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(255, 255, 255, 0.2);
+        }
+        
+        .payment-method-card {
+            border: 2px solid #e9ecef;
+            border-radius: 15px;
+            padding: 1.5rem;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            background: white;
+            text-align: center;
+        }
+        
+        .payment-method-card:hover,
+        .payment-method-card.active {
+            border-color: var(--primary-color);
+            box-shadow: 0 10px 30px rgba(44, 95, 45, 0.2);
+            transform: translateY(-5px);
+        }
+        
+        .payment-method-icon {
+            font-size: 2.5rem;
+            color: var(--primary-color);
+            margin-bottom: 1rem;
+        }
+        
+        .card-element {
+            padding: 15px;
+            border: 1px solid #e0e0e0;
+            border-radius: 8px;
+            background: white;
+        }
+        
+        .secure-badge {
+            background: linear-gradient(45deg, #28a745, #20c997);
+            color: white;
+            padding: 5px 15px;
+            border-radius: 20px;
+            font-size: 0.9rem;
+            display: inline-flex;
+            align-items: center;
+            gap: 5px;
+        }
+        
+        .mpesa-button {
+            background: linear-gradient(45deg, #e91e63, #9c27b0);
+            color: white;
+            border: none;
+            padding: 12px 25px;
+            border-radius: 25px;
+            font-weight: 600;
+            transition: all 0.3s ease;
+        }
+        
+        .mpesa-button:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 5px 20px rgba(233, 30, 99, 0.4);
+            color: white;
+        }
+        
+        .payment-summary {
+            background: var(--light-color);
+            border-radius: 15px;
+            padding: 2rem;
+            margin-bottom: 2rem;
+        }
+        
+        .form-floating > label {
+            color: var(--text-color);
+        }
+        
+        .form-control:focus {
+            border-color: var(--primary-color);
+            box-shadow: 0 0 0 0.2rem rgba(44, 95, 45, 0.25);
+        }
+    </style>
+</head>
+<body>
+    <section class="payment-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 mx-auto">
+                    <div class="text-center mb-5">
+                        <h1 class="text-white" data-aos="fade-up">Secure Payment Processing</h1>
+                        <p class="text-white-50" data-aos="fade-up" data-aos-delay="200">Complete your Kenya safari booking with confidence</p>
+                    </div>
+                    
+                    <div class="payment-card p-4" data-aos="fade-up" data-aos-delay="400">
+                        <form id="paymentForm">
+                            <!-- Booking Summary -->
+                            <div class="payment-summary mb-4">
+                                <h4 class="mb-3">Booking Summary</h4>
+                                <div class="row">
+                                    <div class="col-sm-6">
+                                        <strong>Package:</strong>
+                                        <p id="packageName" class="mb-2">Premium Kenya Safari</p>
+                                    </div>
+                                    <div class="col-sm-6">
+                                        <strong>Guests:</strong>
+                                        <p id="guestCount" class="mb-2">2 People</p>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-sm-6">
+                                        <strong>Duration:</strong>
+                                        <p id="duration" class="mb-2">7 Days / 6 Nights</p>
+                                    </div>
+                                    <div class="col-sm-6">
+                                        <strong>Travel Date:</strong>
+                                        <p id="travelDate" class="mb-2">December 15, 2025</p>
+                                    </div>
+                                </div>
+                                <hr>
+                                <div class="d-flex justify-content-between">
+                                    <strong>Total Amount:</strong>
+                                    <strong id="totalAmount">KSh 95,000</strong>
+                                </div>
+                            </div>
+                            
+                            <!-- Customer Information -->
+                            <div class="row mb-4">
+                                <div class="col-md-6 mb-3">
+                                    <div class="form-floating">
+                                        <input type="text" class="form-control" id="customerName" name="customer_name" placeholder="Full Name" required>
+                                        <label for="customerName">Full Name *</label>
+                                    </div>
+                                </div>
+                                <div class="col-md-6 mb-3">
+                                    <div class="form-floating">
+                                        <input type="email" class="form-control" id="customerEmail" name="customer_email" placeholder="Email" required>
+                                        <label for="customerEmail">Email Address *</label>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="row mb-4">
+                                <div class="col-md-6 mb-3">
+                                    <div class="form-floating">
+                                        <input type="tel" class="form-control" id="customerPhone" name="customer_phone" placeholder="Phone" required>
+                                        <label for="customerPhone">Phone Number *</label>
+                                    </div>
+                                </div>
+                                <div class="col-md-6 mb-3">
+                                    <div class="form-floating">
+                                        <input type="text" class="form-control" id="customerId" name="customer_id" placeholder="ID Number" required>
+                                        <label for="customerId">ID/Passport Number *</label>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <!-- Payment Method Selection -->
+                            <div class="mb-4">
+                                <h5 class="mb-3">Choose Payment Method</h5>
+                                <div class="row">
+                                    <div class="col-md-4 mb-3">
+                                        <div class="payment-method-card" data-method="card">
+                                            <div class="payment-method-icon">
+                                                <i class="fab fa-cc-visa"></i>
+                                                <i class="fab fa-cc-mastercard"></i>
+                                            </div>
+                                            <h6>Credit/Debit Card</h6>
+                                            <p class="small text-muted">Secure card processing</p>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4 mb-3">
+                                        <div class="payment-method-card" data-method="mpesa">
+                                            <div class="payment-method-icon">
+                                                <i class="fas fa-mobile-alt"></i>
+                                            </div>
+                                            <h6>M-PESA</h6>
+                                            <p class="small text-muted">Mobile money payment</p>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4 mb-3">
+                                        <div class="payment-method-card" data-method="bank">
+                                            <div class="payment-method-icon">
+                                                <i class="fas fa-university"></i>
+                                            </div>
+                                            <h6>Bank Transfer</h6>
+                                            <p class="small text-muted">Direct bank payment</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <!-- Payment Details (Cards) -->
+                            <div id="cardPayment" class="mb-4" style="display: none;">
+                                <h6>Card Information</h6>
+                                <div id="card-element" class="card-element mb-3"></div>
+                                <div id="card-errors" role="alert" class="text-danger small"></div>
+                            </div>
+                            
+                            <!-- M-PESA Payment -->
+                            <div id="mpesaPayment" class="mb-4" style="display: none;">
+                                <h6>M-PESA Payment</h6>
+                                <div class="alert alert-info">
+                                    <h6><i class="fas fa-info-circle me-2"></i>How to Pay via M-PESA:</h6>
+                                    <ol class="mb-0">
+                                        <li>Click "Initiate M-PESA Payment"</li>
+                                        <li>Enter your M-PESA PIN on your phone</li>
+                                        <li>Confirm the amount on your phone</li>
+                                        <li>Wait for payment confirmation</li>
+                                    </ol>
+                                </div>
+                                <div class="text-center">
+                                    <button type="button" class="btn mpesa-button btn-lg" onclick="initiateMpesaPayment()">
+                                        <i class="fas fa-mobile-alt me-2"></i>Initiate M-PESA Payment
+                                    </button>
+                                </div>
+                            </div>
+                            
+                            <!-- Bank Transfer Details -->
+                            <div id="bankPayment" class="mb-4" style="display: none;">
+                                <h6>Bank Transfer Details</h6>
+                                <div class="alert alert-success">
+                                    <h6><i class="fas fa-university me-2"></i>Bank Account Details:</h6>
+                                    <p><strong>Bank:</strong> KCB Bank Kenya</p>
+                                    <p><strong>Account Name:</strong> Cavin Otieno Travel & Tours</p>
+                                    <p><strong>Account Number:</strong> 1101234567890</p>
+                                    <p><strong>Swift Code:</strong> KCBLKEN</p>
+                                    <p class="mb-0"><strong>Reference:</strong> Your booking number will be generated after form submission</p>
+                                </div>
+                            </div>
+                            
+                            <!-- Terms and Submit -->
+                            <div class="mb-4">
+                                <div class="form-check">
+                                    <input type="checkbox" class="form-check-input" id="agreeTerms" required>
+                                    <label class="form-check-label" for="agreeTerms">
+                                        I agree to the <a href="#" class="text-primary">Terms and Conditions</a> 
+                                        and <a href="#" class="text-primary">Privacy Policy</a> *
+                                    </label>
+                                </div>
+                                <div class="form-check">
+                                    <input type="checkbox" class="form-check-input" id="agreeCancellation" required>
+                                    <label class="form-check-label" for="agreeCancellation">
+                                        I understand the <a href="#" class="text-primary">Cancellation Policy</a> *
+                                    </label>
+                                </div>
+                            </div>
+                            
+                            <div class="text-center mb-3">
+                                <span class="secure-badge">
+                                    <i class="fas fa-shield-alt"></i> 256-bit SSL Encrypted
+                                </span>
+                            </div>
+                            
+                            <div class="text-center">
+                                <button type="submit" class="btn btn-primary btn-lg" id="paymentButton">
+                                    <i class="fas fa-lock me-2"></i>Complete Payment
+                                </button>
+                                <a href="index.html" class="btn btn-outline-light ms-2">Cancel</a>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- AOS Animation -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    
+    <script>
+        // Initialize AOS
+        AOS.init({
+            duration: 800,
+            once: true,
+            offset: 100
+        });
+
+        // Payment method selection
+        document.querySelectorAll('.payment-method-card').forEach(card => {
+            card.addEventListener('click', function() {
+                // Remove active class from all cards
+                document.querySelectorAll('.payment-method-card').forEach(c => c.classList.remove('active'));
+                
+                // Add active class to selected card
+                this.classList.add('active');
+                
+                // Get selected method
+                const method = this.dataset.method;
+                
+                // Hide all payment sections
+                document.getElementById('cardPayment').style.display = 'none';
+                document.getElementById('mpesaPayment').style.display = 'none';
+                document.getElementById('bankPayment').style.display = 'none';
+                
+                // Show selected payment section
+                if (method === 'card') {
+                    document.getElementById('cardPayment').style.display = 'block';
+                    initializeStripe();
+                } else if (method === 'mpesa') {
+                    document.getElementById('mpesaPayment').style.display = 'block';
+                } else if (method === 'bank') {
+                    document.getElementById('bankPayment').style.display = 'block';
+                }
+            });
+        });
+
+        // Initialize Stripe
+        let stripe, cardElement;
+        
+        function initializeStripe() {
+            if (!stripe) {
+                stripe = Stripe('pk_test_51234567890abcdef'); // Replace with your Stripe public key
+                const elements = stripe.elements();
+                
+                cardElement = elements.create('card', {
+                    style: {
+                        base: {
+                            fontSize: '16px',
+                            color: '#424770',
+                            '::placeholder': {
+                                color: '#aab7c4',
+                            },
+                        },
+                    },
+                });
+                
+                cardElement.mount('#card-element');
+                
+                cardElement.addEventListener('change', function(event) {
+                    const displayError = document.getElementById('card-errors');
+                    if (event.error) {
+                        displayError.textContent = event.error.message;
+                    } else {
+                        displayError.textContent = '';
+                    }
+                });
+            }
+        }
+
+        // M-PESA Payment
+        async function initiateMpesaPayment() {
+            const button = event.target;
+            const originalText = button.innerHTML;
+            
+            button.innerHTML = '<i class="fas fa-spinner fa-spin me-2"></i>Processing...';
+            button.disabled = true;
+            
+            try {
+                // Simulate M-PESA payment processing
+                await new Promise(resolve => setTimeout(resolve, 2000));
+                
+                // In real implementation, you would call your M-PESA API here
+                alert('M-PESA payment initiated! Please check your phone for the payment prompt.');
+                
+                // Reset button
+                button.innerHTML = originalText;
+                button.disabled = false;
+                
+            } catch (error) {
+                console.error('M-PESA payment error:', error);
+                alert('Payment failed. Please try again.');
+                button.innerHTML = originalText;
+                button.disabled = false;
+            }
+        }
+
+        // Payment form submission
+        document.getElementById('paymentForm').addEventListener('submit', async function(event) {
+            event.preventDefault();
+            
+            const submitButton = document.getElementById('paymentButton');
+            const originalText = submitButton.innerHTML;
+            
+            submitButton.innerHTML = '<i class="fas fa-spinner fa-spin me-2"></i>Processing Payment...';
+            submitButton.disabled = true;
+            
+            try {
+                // Get selected payment method
+                const activeCard = document.querySelector('.payment-method-card.active');
+                if (!activeCard) {
+                    throw new Error('Please select a payment method');
+                }
+                
+                const paymentMethod = activeCard.dataset.method;
+                const formData = new FormData(this);
+                
+                if (paymentMethod === 'card') {
+                    // Process Stripe payment
+                    const { error, paymentMethod: stripePaymentMethod } = await stripe.createPaymentMethod({
+                        type: 'card',
+                        card: cardElement,
+                        billing_details: {
+                            name: formData.get('customer_name'),
+                            email: formData.get('customer_email'),
+                            phone: formData.get('customer_phone'),
+                        },
+                    });
+                    
+                    if (error) {
+                        throw new Error(error.message);
+                    }
+                    
+                    // In real implementation, send payment method to your backend
+                    console.log('Payment method created:', stripePaymentMethod);
+                    
+                } else if (paymentMethod === 'mpesa') {
+                    // Process M-PESA payment
+                    console.log('Processing M-PESA payment...');
+                    
+                } else if (paymentMethod === 'bank') {
+                    // Bank transfer - no processing needed
+                    console.log('Bank transfer selected');
+                }
+                
+                // Simulate payment processing
+                await new Promise(resolve => setTimeout(resolve, 2000));
+                
+                // Show success
+                alert('Payment processed successfully! You will receive a confirmation email shortly.');
+                
+                // Redirect to confirmation page
+                window.location.href = 'confirmation.html';
+                
+            } catch (error) {
+                console.error('Payment error:', error);
+                alert('Payment failed: ' + error.message);
+                
+                // Reset button
+                submitButton.innerHTML = originalText;
+                submitButton.disabled = false;
+            }
+        });
+
+        // Get URL parameters to populate form
+        document.addEventListener('DOMContentLoaded', function() {
+            const urlParams = new URLSearchParams(window.location.search);
+            
+            if (urlParams.get('package')) {
+                document.getElementById('packageName').textContent = urlParams.get('package');
+            }
+            if (urlParams.get('guests')) {
+                document.getElementById('guestCount').textContent = urlParams.get('guests') + ' People';
+            }
+            if (urlParams.get('date')) {
+                document.getElementById('travelDate').textContent = urlParams.get('date');
+            }
+            if (urlParams.get('amount')) {
+                document.getElementById('totalAmount').textContent = urlParams.get('amount');
+            }
+        });
+    </script>
+</body>
+</html>
