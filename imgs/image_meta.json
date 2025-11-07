@@ -1378,5 +1378,185 @@
       "file_name": "favicon_creation_6.png"
     },
     "llm_score": null
+  },
+  {
+    "query": "Lake Nakuru National Park with pink flamingos and beautiful lake scenery",
+    "image_info": {
+      "url": "https://i.ytimg.com/vi/NBpe3s-Qj1Q/maxresdefault.jpg",
+      "img_format": "JPEG",
+      "mode": "RGB",
+      "file_size": 132672,
+      "width": 1280,
+      "height": 720,
+      "total_pixels": 921600,
+      "basic_score": 0.9331114779116823,
+      "file_name": "lake_nakuru_page_9.jpg"
+    },
+    "llm_score": null
+  },
+  {
+    "query": "Lake Nakuru National Park with pink flamingos and beautiful lake scenery",
+    "image_info": {
+      "url": "https://res.cloudinary.com/ddjuftfy2/image/upload/f_webp,c_fill,q_auto/memphis/xlarge/546201882_Lake%20Nakuru%20National%20Park.jpg",
+      "img_format": "WEBP",
+      "mode": "RGB",
+      "file_size": 165104,
+      "width": 1440,
+      "height": 700,
+      "total_pixels": 1008000,
+      "basic_score": 0.9289072281397112,
+      "file_name": "lake_nakuru_page_4.jpg"
+    },
+    "llm_score": null
+  },
+  {
+    "query": "Lake Nakuru National Park with pink flamingos and beautiful lake scenery",
+    "image_info": {
+      "url": "https://media.holidify.com/images/cmsuploads/compressed/Flamingos-in-Lake-Nakuru-National-Parksss-1_20240809130108.jpg",
+      "img_format": "JPEG",
+      "mode": "RGB",
+      "file_size": 51321,
+      "width": 1200,
+      "height": 600,
+      "total_pixels": 720000,
+      "basic_score": 0.887162622501407,
+      "file_name": "lake_nakuru_page_7.jpg"
+    },
+    "llm_score": null
+  },
+  {
+    "query": "A beautiful luxury safari lodge in Kenya with modern amenities and beautiful African architecture",
+    "image_info": {
+      "url": "https://kabirasafaris.com/wp-content/uploads/2022/12/Elsas-Kopje.jpg",
+      "img_format": "JPEG",
+      "mode": "RGB",
+      "file_size": 989221,
+      "width": 1200,
+      "height": 800,
+      "total_pixels": 960000,
+      "basic_score": 0.9686686961530994,
+      "file_name": "luxury_lodge_image_5.jpg"
+    },
+    "llm_score": null
+  },
+  {
+    "query": "A beautiful luxury safari lodge in Kenya with modern amenities and beautiful African architecture",
+    "image_info": {
+      "url": "https://www.thesafaricollection.com/wp-content/uploads/2021/05/SASAAB-DOUBLE-TENTS.jpg",
+      "img_format": "JPEG",
+      "mode": "RGB",
+      "file_size": 122539,
+      "width": 1000,
+      "height": 1000,
+      "total_pixels": 1000000,
+      "basic_score": 0.9291759291743077,
+      "file_name": "luxury_lodge_image_7.jpg"
+    },
+    "llm_score": null
+  },
+  {
+    "query": "A beautiful luxury safari lodge in Kenya with modern amenities and beautiful African architecture",
+    "image_info": {
+      "url": "https://www.masaimara.com/assets/img/ol-seki-hemingways-mara-kenya.jpg",
+      "img_format": "JPEG",
+      "mode": "RGB",
+      "file_size": 78421,
+      "width": 680,
+      "height": 680,
+      "total_pixels": 462400,
+      "basic_score": 0.8438908682158784,
+      "file_name": "luxury_lodge_image_8.jpg"
+    },
+    "llm_score": null
+  },
+  {
+    "query": "Lake Naivasha with hippos and beautiful Kenya landscape",
+    "image_info": {
+      "url": "https://projectgora.com/wp-content/uploads/2025/09/lake-naivasha-1-1200x800.jpg",
+      "img_format": "JPEG",
+      "mode": "RGB",
+      "file_size": 137968,
+      "width": 1200,
+      "height": 800,
+      "total_pixels": 960000,
+      "basic_score": 0.9367671615702017,
+      "file_name": "lake_naivasha_page_5.jpg"
+    },
+    "llm_score": null
+  },
+  {
+    "query": "Lake Naivasha with hippos and beautiful Kenya landscape",
+    "image_info": {
+      "url": "https://res.cloudinary.com/ddjuftfy2/image/upload/f_webp,c_fill,q_auto/memphis/xlarge/1355931218_Lake%20Nivasha.jpg",
+      "img_format": "WEBP",
+      "mode": "RGB",
+      "file_size": 155682,
+      "width": 1440,
+      "height": 700,
+      "total_pixels": 1008000,
+      "basic_score": 0.9280385051969352,
+      "file_name": "lake_naivasha_page_6.jpg"
+    },
+    "llm_score": null
+  },
+  {
+    "query": "Lake Naivasha with hippos and beautiful Kenya landscape",
+    "image_info": {
+      "url": "https://www.onehorizonafrica.com/wp-content/uploads/2023/06/spotting-hippos-on-lake-naivasha-1-day-cultural-tour-banner.jpg",
+      "img_format": "JPEG",
+      "mode": "RGB",
+      "file_size": 232527,
+      "width": 1366,
+      "height": 650,
+      "total_pixels": 887900,
+      "basic_score": 0.914696321356539,
+      "file_name": "lake_naivasha_page_4.jpg"
+    },
+    "llm_score": null
+  },
+  {
+    "query": "Maasai traditional village experience showing cultural activities and traditional lifestyle",
+    "image_info": {
+      "url": "https://artofsafari.travel/wp-content/uploads/2016/08/EastAfrica_GrantTelferMaasaiManyatta.jpg",
+      "img_format": "JPEG",
+      "mode": "RGB",
+      "file_size": 309696,
+      "width": 1264,
+      "height": 800,
+      "total_pixels": 1011200,
+      "basic_score": 0.9509044730800408,
+      "file_name": "maasai_culture_image_8.jpg"
+    },
+    "llm_score": null
+  },
+  {
+    "query": "Maasai traditional village experience showing cultural activities and traditional lifestyle",
+    "image_info": {
+      "url": "https://artofsafari.travel/wp-content/uploads/2016/08/Kenya_MasaiMara_andBeyondKichwaFamily1.jpg",
+      "img_format": "JPEG",
+      "mode": "RGB",
+      "file_size": 199373,
+      "width": 1261,
+      "height": 800,
+      "total_pixels": 1008800,
+      "basic_score": 0.942035722953174,
+      "file_name": "maasai_culture_image_3.jpg"
+    },
+    "llm_score": null
+  },
+  {
+    "query": "Maasai traditional village experience showing cultural activities and traditional lifestyle",
+    "image_info": {
+      "url": "https://naicef.com/wp-content/uploads/2025/08/Masai-Mara-village-tour-Masai-Mara-culture-Visit-Masai-Mara-village-in-Kenya-Masai-Mara-village-day-tour-experience-Masai-Mara-cultural-village-3.jpg",
+      "img_format": "JPEG",
+      "mode": "RGB",
+      "file_size": 82808,
+      "width": 772,
+      "height": 552,
+      "total_pixels": 426144,
+      "basic_score": 0.8327766908278168,
+      "file_name": "maasai_culture_image_5.jpg"
+    },
+    "llm_score": null
   }
 ]
