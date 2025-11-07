@@ -42,6 +42,8 @@ window.API_CONFIG = {
     CONTACT: '/api/contact',
     CREATE_PAYMENT_INTENT: '/api/create-payment-intent',
     MPESA_PAYMENT: '/api/mpesa-payment',
+    MPESA_CALBACK: '/api/mpesa-callback',
+    MPESA_TIMEOUT: '/api/mpesa-timeout',
     SEND_CONFIRMATION: '/api/send-confirmation',
     GET_BOOKING: '/api/booking',
     TEST_EMAIL: '/api/test-email'
