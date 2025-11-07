@@ -8,6 +8,9 @@ document.addEventListener('DOMContentLoaded', function() {
         offset: 100
     });
 
+    // Initialize Bootstrap Datepickers
+    initializeDatepickers();
+
     // Navbar scroll effect
     const navbar = document.querySelector('.navbar');
     window.addEventListener('scroll', function() {
@@ -102,14 +105,20 @@ document.addEventListener('DOMContentLoaded', function() {
     
     if (playButton && videoContainer) {
         playButton.addEventListener('click', function() {
-            // Create video modal or replace with actual video
+            // Create video modal with real Kenya safari video
             const videoModal = document.createElement('div');
             videoModal.className = 'video-modal';
             videoModal.innerHTML = `
                 <div class="video-modal-content">
                     <span class="video-modal-close">&times;</span>
-                    <iframe width="100%" height="400" src="https://www.youtube.com/embed/your-video-id" 
-                            frameborder="0" allowfullscreen></iframe>
+                    <div class="video-wrapper">
+                        <iframe width="100%" height="400" src="https://www.youtube.com/embed/8ZK_S-46KwE?autoplay=1&rel=0" 
+                                frameborder="0" allowfullscreen allow="autoplay; encrypted-media"></iframe>
+                    </div>
+                    <div class="video-info mt-3">
+                        <h5>Kenya Safari Adventure</h5>
+                        <p>Experience the magic of Kenya's wildlife and landscapes in this stunning showcase of our premium safari experiences.</p>
+                    </div>
                 </div>
             `;
             
@@ -398,6 +407,56 @@ document.addEventListener('DOMContentLoaded', function() {
 
     console.log('Kenya Safari Tours website loaded successfully! 🦁');
 });
+
+// Initialize Bootstrap Datepickers
+function initializeDatepickers() {
+    // Initialize datepickers for all date inputs
+    const dateInputs = document.querySelectorAll('input[type="date"]');
+    
+    dateInputs.forEach(input => {
+        // Add datepicker functionality
+        $(input).datepicker({
+            format: 'yyyy-mm-dd',
+            startDate: '0d', // Disable past dates
+            todayHighlight: true,
+            autoclose: true,
+            orientation: 'bottom',
+            templates: {
+                leftArrow: '<i class="fas fa-chevron-left"></i>',
+                rightArrow: '<i class="fas fa-chevron-right"></i>'
+            }
+        });
+
+        // Set minimum date to today for check-in dates
+        if (input.id && input.id.includes('checkin') || input.id.includes('startDate')) {
+            $(input).datepicker('setStartDate', new Date());
+        }
+
+        // Set minimum date for check-out based on check-in selection
+        if (input.id && input.id.includes('checkout') || input.id.includes('endDate')) {
+            const checkinInput = document.querySelector('#checkin, #startDate');
+            if (checkinInput) {
+                $(checkinInput).on('changeDate', function() {
+                    const selectedDate = new Date($(this).val());
+                    if (selectedDate) {
+                        const nextDay = new Date(selectedDate);
+                        nextDay.setDate(nextDay.getDate() + 1);
+                        $(input).datepicker('setStartDate', nextDay);
+                    }
+                });
+            }
+        }
+
+        // Add visual feedback
+        input.addEventListener('focus', function() {
+            this.classList.add('datepicker-focused');
+        });
+
+        input.addEventListener('blur', function() {
+            this.classList.remove('datepicker-focused');
+        });
+    });
+}
 
 // Utility functions
 
