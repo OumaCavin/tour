@@ -34,6 +34,20 @@ Visit the live website to explore all features and destinations!
 - **Cultural Experiences**: Information about Maasai culture and Swahili heritage
 - **Adventure Activities**: Mountain climbing, beach activities, cultural tours
 
+### 💳 Payment Integration
+- **M-PESA Mobile Payments**: Safaricom STK push integration for Kenya customers
+  - Supports mobile money payments via phone
+  - Sandbox environment for testing
+  - Automatic payment confirmations
+- **Stripe Card Payments**: International card payments in test mode
+  - Supports all major credit cards
+  - Secure payment processing
+  - Real-time payment confirmation
+- **Multiple Payment Options**: 
+  - KES (Kenyan Shillings) via M-PESA
+  - USD/EUR via Stripe
+  - Secure webhooks for payment confirmations
+
 ### 📞 Contact & Communication
 - **Integrated Contact Forms**: Supabase-powered contact forms with real-time data storage
 - **WhatsApp Integration**: Direct WhatsApp contact buttons with wa.me links
@@ -82,13 +96,27 @@ Visit the live website to explore all features and destinations!
 
 ## Technologies Used
 
+### Frontend
 - **HTML5**: Semantic markup
 - **CSS3**: Custom styling with CSS variables
 - **JavaScript**: Interactive functionality
 - **Bootstrap 5**: Responsive framework
 - **Font Awesome**: Icon library
 - **AOS**: Scroll animations
-- **Supabase**: Backend database for contact forms
+
+### Backend & Services
+- **Node.js**: Express.js server for API endpoints
+- **Supabase**: Backend database for contact forms and data storage
+- **Railway**: Cloud platform for backend deployment
+- **M-PESA API**: Safaricom mobile payment integration
+- **Stripe API**: International payment processing (test mode)
+- **Resend**: Email service for automated notifications
+
+### Payment Processing
+- **M-PESA STK Push**: Mobile money payments for Kenya
+- **Stripe Elements**: Secure card payment forms
+- **Webhook Integration**: Real-time payment confirmations
+- **Environment Variables**: Secure credential management
 
 ## 🚀 Setup & Deployment
 
@@ -103,32 +131,65 @@ Visit the live website to explore all features and destinations!
    - Open `index.html` in a web browser
    - For development server: Use Live Server extension in VS Code or any local server
 
-3. **Deploy to GitHub Pages**:
+3. **Deploy to GitHub Pages** (Frontend):
    - Push to the main branch of the repository
    - Enable GitHub Pages in repository settings
    - Access at: `https://oumacavin.github.io/tour/`
 
+4. **Deploy to Railway** (Backend):
+   - See `RAILWAY_DEPLOYMENT_STEP_BY_STEP.md` for complete instructions
+   - Required for M-PESA, Stripe, and contact form functionality
+   - Time needed: 10-15 minutes
+
+### Complete Deployment Guide
+
+**🌐 Frontend (GitHub Pages):** https://oumacavin.github.io/tour/  
+**🔧 Backend (Railway):** `https://your-project-name.railway.app`  
+**📋 Full Guide:** [RAILWAY_DEPLOYMENT_STEP_BY_STEP.md](RAILWAY_DEPLOYMENT_STEP_BY_STEP.md)
+
 ### Supabase Database Setup
 
-The contact forms require a Supabase backend. To set up:
+The contact forms require a Supabase backend. Your project is already configured:
 
-1. **Create Supabase Project**:
-   - Go to [supabase.com](https://supabase.com)
-   - Create a new project
-   - Note your project URL and API keys
+1. **Your Supabase Project**:
+   - Project URL: `https://thmujhifulhmwpefjxyd.supabase.co`
+   - Database tables are ready in `supabase-setup.sql`
+   - API keys are configured in environment variables
 
 2. **Database Tables**:
-   Run the SQL in `supabase-setup.sql` to create required tables:
-   ```sql
-   -- Execute this in your Supabase SQL editor
-   ```
+   The required tables are created and ready:
+   - `contact_submissions` - For contact form data
+   - `newsletter_subscriptions` - For newsletter signups
+   - `booking_inquiries` - For tour booking requests
 
 3. **Environment Configuration**:
-   Update `js/main.js` with your Supabase credentials:
-   ```javascript
-   const SUPABASE_URL = 'YOUR_SUPABASE_URL';
-   const SUPABASE_ANON_KEY = 'YOUR_SUPABASE_ANON_KEY';
+   Backend environment variables include all required Supabase credentials:
+   ```bash
+   SUPABASE_URL=https://thmujhifulhmwpefjxyd.supabase.co
+   SUPABASE_ANON_KEY=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9...
+   SUPABASE_SERVICE_KEY=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9...
    ```
+
+### Railway Backend Deployment
+
+#### **Required for Full Functionality:**
+- **M-PESA Mobile Payments** (Kenya) - STK push integration
+- **Stripe Card Payments** (International) - Test mode enabled
+- **Email Notifications** - Automated confirmations via Resend
+- **Contact Form Processing** - Database storage via Supabase
+- **Payment Webhooks** - Real-time payment confirmations
+
+#### **Quick Setup (15 minutes):**
+1. **Create Railway project** from GitHub repository
+2. **Add environment variables** from `RAILWAY_COMPLETE_ENVIRONMENT_VARIABLES.txt`
+3. **Get Railway URL** and update M-PESA callback URLs
+4. **Test all functionality** - contact forms, payments, email notifications
+
+#### **Test Your Deployment:**
+- **Health Check:** `https://your-project-name.railway.app/api/health`
+- **Contact Form:** https://oumacavin.github.io/tour/contact.html
+- **Stripe Payment:** https://oumacavin.github.io/tour/payment.html (use card: 4242 4242 4242 4242)
+- **M-PESA Payment:** https://oumacavin.github.io/tour/payment.html (use phone: 0708101604)
 
 ### 🛠️ Customization Guide
 
@@ -163,27 +224,45 @@ The contact forms require a Supabase backend. To set up:
 ### 📁 File Structure
 ```
 kenya-tour-website/
-├── index.html              # Homepage
-├── about.html              # About page
-├── services.html           # Services page
-├── contact.html            # Contact page
-├── destinations.html       # All destinations overview
-├── masai-mara.html         # Masai Mara destination
-├── amboseli.html           # Amboseli destination
-├── mount-kenya.html        # Mount Kenya destination
-├── lamu.html              # Lamu Island destination
-├── tsavo.html             # Tsavo destination
-├── css/
-│   └── style.css          # Main stylesheet
-├── js/
-│   └── main.js            # Main JavaScript file
-├── images/                 # All website images
-│   ├── kenya-logo.png     # Company logo
-│   ├── testimonials/      # Customer photos
-│   ├── destinations/      # Destination images
-│   └── team/              # Team member photos
-├── supabase-setup.sql     # Database setup script
-└── README.md              # This documentation
+├── Frontend Files
+│   ├── index.html              # Homepage
+│   ├── about.html              # About page
+│   ├── services.html           # Services page
+│   ├── contact.html            # Contact page
+│   ├── destinations.html       # All destinations overview
+│   ├── masai-mara.html         # Masai Mara destination
+│   ├── amboseli.html           # Amboseli destination
+│   ├── mount-kenya.html        # Mount Kenya destination
+│   ├── lamu.html              # Lamu Island destination
+│   ├── tsavo.html             # Tsavo destination
+│   ├── payment.html           # Payment processing page
+│   ├── confirmation.html      # Payment confirmation page
+│   ├── css/
+│   │   └── style.css          # Main stylesheet
+│   ├── js/
+│   │   ├── main.js            # Main JavaScript file
+│   │   └── config.js          # API configuration
+│   └── images/                 # All website images
+│       ├── kenya-logo.png     # Company logo
+│       ├── testimonials/      # Customer photos
+│       ├── destinations/      # Destination images
+│       └── team/              # Team member photos
+
+├── Backend Files
+│   ├── server.js              # Express.js server
+│   ├── package.json           # Node.js dependencies
+│   ├── Dockerfile            # Docker containerization
+│   ├── docker-compose.yml    # Docker orchestration
+
+├── Database & Setup
+│   ├── supabase-setup.sql    # Database setup script
+│   └── database-setup.sql    # Complete database setup
+
+├── Configuration & Documentation
+│   ├── RAILWAY_DEPLOYMENT_STEP_BY_STEP.md  # Deployment guide
+│   ├── RAILWAY_COMPLETE_ENVIRONMENT_VARIABLES.txt  # All env variables
+│   ├── DEPLOYMENT_READY_SUMMARY.md        # Final deployment status
+│   └── README.md                          # This documentation
 ```
 
 ### 🔧 Technical Requirements
