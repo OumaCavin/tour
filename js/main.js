@@ -228,8 +228,9 @@ document.addEventListener('DOMContentLoaded', function() {
             submitButton.textContent = 'Sending...';
             submitButton.disabled = true;
             
-            // Submit to backend service
-            const response = await fetch('/api/contact', {
+            // Submit to backend service using configured API
+            const apiUrl = `${window.API_CONFIG.BASE_URL}${window.API_CONFIG.ENDPOINTS.CONTACT}`;
+            const response = await fetch(apiUrl, {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json',
