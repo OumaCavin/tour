@@ -294,6 +294,8 @@
 
     <!-- Bootstrap JS -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- API Configuration -->
+    <script src="js/config.js"></script>
     <!-- AOS Animation -->
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     
@@ -338,8 +340,8 @@
         let stripe, cardElement;
         
         function initializeStripe() {
-            if (!stripe) {
-                stripe = Stripe('pk_test_51234567890abcdef'); // Replace with your Stripe public key
+            if (!stripe && window.API_CONFIG && window.API_CONFIG.STRIPE_PUBLISHABLE_KEY) {
+                stripe = Stripe(window.API_CONFIG.STRIPE_PUBLISHABLE_KEY);
                 const elements = stripe.elements();
                 
                 cardElement = elements.create('card', {
