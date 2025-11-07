@@ -71,31 +71,57 @@
 
 ### Step 4: Configure Environment Variables in Railway
 
-Add these environment variables one by one:
+### **Option A: Free/Non-Commercial Setup (Recommended to Start)**
+
+Add these environment variables (FREE tiers - no business verification required):
 
 ```
 NODE_ENV=production
 PORT=3000
 BASE_URL=https://your-project-name.railway.app
+PAYMENT_MODE=test
 
-# Stripe (Add after getting production keys)
-STRIPE_SECRET_KEY=sk_live_your_actual_stripe_secret_key
-STRIPE_PUBLISHABLE_KEY=pk_live_your_actual_stripe_publishable_key
+# Stripe Test Keys (FREE - no business verification needed)
+# Get from: https://dashboard.stripe.com/apikeys
+STRIPE_SECRET_KEY=sk_test_your_test_secret_key
+STRIPE_PUBLISHABLE_KEY=pk_test_your_test_publishable_key
 
-# Resend (Add after getting API key)
-RESEND_API_KEY=re_your_actual_resend_key
+# Resend Free Tier (FREE - 3,000 emails/month)
+# Get from: https://resend.com (no domain setup needed)
+RESEND_API_KEY=re_your_actual_resend_api_key
 
 # Supabase (Already configured)
 SUPABASE_URL=https://thmujhifulhmwpefjxyd.supabase.co
-SUPABASE_ANON_KEY=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InRobXVqaGlmdWxobXdwZWZqeHlkIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NjI0ODIwNjgsImV4cCI6MjA3ODA1ODA2OH0.OoIbDIrAjcr9g0yNj5WQCwgxRtCrQiWMa7X09V9S44g
+SUPABASE_ANON_KEY=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ7...
+```
 
-# M-PESA (Add after getting production credentials)
+### **Option B: Business/Commercial Setup (Optional - for monetization)**
+
+For business/commercial use, add production keys and business credentials:
+
+```
+NODE_ENV=production
+PORT=3000
+BASE_URL=https://your-project-name.railway.app
+PAYMENT_MODE=live
+
+# Stripe Production Keys (requires business verification)
+STRIPE_SECRET_KEY=sk_live_your_actual_stripe_secret_key
+STRIPE_PUBLISHABLE_KEY=pk_live_your_actual_stripe_publishable_key
+
+# Resend with Custom Domain (optional - for business)
+RESEND_API_KEY=re_your_actual_resend_key
+RESEND_DOMAIN=kenyasafaritours.com
+
+# M-PESA Business Integration (5-10 days approval)
 MPESA_CONSUMER_KEY=your_actual_consumer_key
 MPESA_CONSUMER_SECRET=your_actual_consumer_secret
 MPESA_SHORTCODE=your_actual_shortcode
 MPESA_PASSKEY=your_actual_passkey
 MPESA_CALLBACK_URL=https://your-project-name.railway.app/api/mpesa-callback
 ```
+
+**💡 Start with Option A (Free) - you can always upgrade to Option B later!**
 
 ---
 
