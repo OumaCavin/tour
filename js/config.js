@@ -30,8 +30,8 @@ window.API_CONFIG = {
   BASE_URL: 'https://your-project-name.railway.app',
   
   // Stripe Configuration - Use TEST keys for non-commercial/free app
-  // Get test keys from https://dashboard.stripe.com/apikeys (no business verification required)
-  STRIPE_PUBLISHABLE_KEY: 'pk_test_51234567890abcdef', // Replace with your actual test key
+  // ✅ Your actual Stripe test keys configured below
+  STRIPE_PUBLISHABLE_KEY: 'pk_test_51SQlePFl1uXcWbBh3uPz4Nd51YZqQxVX6u5et2rDj1U4N4MQiPiqgSLp4GvVvEwI0gvQR5GfAOrF6ZGfElrRw3DA00CPuA3w48', // ✅ ACTUAL TEST KEY
   
   // Payment mode: 'test' for development/testing, 'live' for production
   PAYMENT_MODE: 'test',
