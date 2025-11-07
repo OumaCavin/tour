@@ -34,12 +34,12 @@ app.use(bodyParser.json({ limit: '10mb' }));
 app.use(bodyParser.urlencoded({ extended: true, limit: '10mb' }));
 
 // Initialize services
-const stripe = Stripe(process.env.STRIPE_SECRET_KEY || 'sk_test_51SQlePFl1uXcWbBhq5NQlFgnWfk3kGI3XmzgsNJzCOjLXI3G3xAHeeusRtI5SfW373OQQrVoYFUzZXxgmramNqf900Qt2SK3DW');
+const stripe = Stripe(process.env.STRIPE_SECRET_KEY);
 const supabase = createClient(
     process.env.SUPABASE_URL || 'https://thmujhifulhmwpefjxyd.supabase.co',
     process.env.SUPABASE_SERVICE_KEY || 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InRobXVqaGlmdWxobXdwZWZqeHlkIiwicm9sZSI6InNlcnZpY2Vfcm9sZSIsImlhdCI6MTc2MjQ4MjA2OCwiZXhwIjoyMDc4MDU4MDY4fQ.kGHIJmEKwQkW8bLb7q2HW-2eU8iMVxYJq2UVjwMzTlE'
 );
-const resend = new Resend(process.env.RESEND_API_KEY || 're_FK6iEydb_J4gw5Jkn5sKcn8s19LbSN9VK');
+const resend = new Resend(process.env.RESEND_API_KEY);
 
 // Booking data store
 let bookingCounter = 1000;
