@@ -9,6 +9,9 @@
     --warning-color: #FF8C00; /* Dark Orange - African sunrise */
     --dark-color: #2F4F4F; /* Dark Slate Gray */
     --light-color: #F5F5DC; /* Beige - Kenyan savanna */
+    --text-color: #333333; /* Dark gray for text readability */
+    --text-light: #666666; /* Medium gray for secondary text */
+    --text-dark: #222222; /* Very dark for important text */
     --white: #FFFFFF;
     --black: #000000;
     
