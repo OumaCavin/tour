@@ -1,0 +1,189 @@
+# Interactive Rebase Plan for Kenya Safari Tours Repository
+
+## Commit Analysis:
+
+### Good Commits (Keep as-is):
+1. 8a6e773 - refactor(website): replace MiniMax Agent references with Cavin Otieno
+2. ee26301 - 🔧 Reorganize Repository Structure - Move Documentation to documents/
+3. d66e850 - 🔧 Add .nojekyll to disable Jekyll processing and fix GitHub Pages serving
+4. 761904b - 🔧 Force GitHub Pages Refresh - Added cache busting meta tag to trigger site update
+5. 2775644 - 🔧 Move Website Files to Main Repository - Fix GitHub Pages Access
+6. 4aad852 - 🔧 Update Submodule to Latest Commit - Payment page font fixes and Gmail app password
+7. 0009c81 - 🔧 Fix Payment Page Font Visibility & Update Gmail App Password - Enhanced text contrast and readability
+8. b287471 - 🔧 Fix Multiple Website Issues - Complete Website Enhancement
+9. 07cc3cc - 🔧 Resolve merge conflict in config.js - Keep actual Stripe test keys
+10. a9f15f2 - 📋 Complete Railway Deployment Guide - Step-by-step instructions for 10-minute backend deployment
+11. bd95fe8 - 📱 Complete M-PESA Integration - All required configuration variables
+12. 3a7b2aa - 🚀 Railway Deployment Ready - Secure Configuration
+13. 678b605 - 🚀 Railway Deployment Ready - Complete API Configuration
+14. ced5910 - 📧 Complete email setup for non-commercial use - Resend free tier integration
+15. a8fb227 - 🔧 Update config for non-commercial use - add test mode support
+16. 3e6df14 - 🎉 Add Railway deployment configuration and API integration
+17. c4583b3 - 🎉 Complete Payment Integration & Cloud Deployment
+18. d18fce4 - Initial workspace commit
+
+### System Commits to Squash:
+1. 1617310 - Message 381088887623828
+2. 044d490 - Message 374699565842667
+3. bba3f23 - Sync with matrix message 331699272708474
+4. 7debd0b - Sync with matrix message 331688492445778
+5. 637a920 - Message 331688492445778
+6. 74e4aef - Message 331652637343997
+7. 8b18981 - Message 331626691539072
+8. 1806a94 - Message 331621392392445
+9. 3c4fa43 - Message 331623872704840
+10. c2b3ce3 - Message 331621392392404
+11. 7693afa - Message 331608497627240
+12. 62f91bb - Message 331604517462348
+13. bc3fe88 - Message 331595899805943
+14. d5f795b - Message 331583670681921
+15. 169d5ae - Message 331574349140086
+16. 0d687fe - Sync with matrix message 331570004213996
+17. b7e5052 - Message 331570004213996
+18. c1a6444 - Sync with matrix message 331558291898583
+19. e890f91 - Message 331558291898583
+20. 5b78739 - Sync with matrix message 331524642189450
+21. 9a36921 - Message 331524642189450
+
+## Proposed Squash Strategy:
+Group system commits with related good commits:
+
+### Group 1: Initial Development Phase
+Squash: 5b78739, 9a36921, d5f795b, 169d5ae, 0d687fe, b7e5052, c1a6444, e890f91, bc3fe88, 62f91bb, 7693afa, 74e4aef, 8b18981, 1806a94, 3c4fa43, c2b3ce3
+Into: c4583b3 - 🎉 Complete Payment Integration & Cloud Deployment
+New message:
+```
+feat(payments): implement payment integration and cloud deployment infrastructure
+
+- Add Stripe payment processing integration
+- Configure Supabase database for payment records
+- Set up cloud deployment infrastructure
+- Add M-PESA payment configuration
+- Configure environment variables and API keys
+- Implement secure payment handling
+```
+
+### Group 2: Railway Deployment Phase
+Squash: 637a920, 74e4aef, 8b18981, 1806a94, 3c4fa43, c2b3ce3, 7693afa, 62f91bb, bc3fe88
+Into: 3e6df14 - 🎉 Add Railway deployment configuration and API integration
+New message:
+```
+feat(deploy): configure Railway deployment and backend services
+
+- Add Railway deployment configuration
+- Configure API integration for backend services
+- Set up environment variables
+- Implement email service integration
+- Add non-commercial payment configuration
+```
+
+### Group 3: Email and Configuration
+Squash: c2b3ce3, 7693afa, 74e4aef, 8b18981, 1806a94
+Into: ced5910 - 📧 Complete email setup for non-commercial use - Resend free tier integration
+New message:
+```
+feat(email): implement email notification system with Resend
+
+- Integrate Resend API for transactional emails
+- Configure email templates for booking confirmations
+- Add email validation and error handling
+- Set up email service for non-commercial use
+```
+
+### Group 4: Railway Final Configuration
+Squash: 74e4aef, 8b18981, 1806a94, 3c4fa43, c2b3ce3, 7693afa
+Into: 678b605 - 🚀 Railway Deployment Ready - Complete API Configuration
+New message:
+```
+feat(config): complete Railway API configuration and deployment setup
+
+- Finalize Railway API configuration
+- Complete deployment readiness checks
+- Configure all required API endpoints
+- Set up production environment variables
+```
+
+### Group 5: Railway Security Configuration
+Squash: 3c4fa43, c2b3ce3
+Into: 3a7b2aa - 🚀 Railway Deployment Ready - Secure Configuration
+New message:
+```
+feat(security): implement secure configuration for Railway deployment
+
+- Configure secure API keys and secrets
+- Implement security best practices
+- Add authentication middleware
+- Configure secure environment variables
+```
+
+### Group 6: M-PESA Integration
+Squash: bc3fe88, d5f795b, 169d5ae
+Into: bd95fe8 - 📱 Complete M-PESA Integration - All required configuration variables
+New message:
+```
+feat(mpesa): implement M-PESA mobile payment integration
+
+- Add M-PESA API configuration
+- Configure payment callbacks
+- Implement payment verification
+- Add error handling for payment failures
+```
+
+### Group 7: Deployment Guide
+Squash: 8b18981, 1806a94, 74e4aef, 7693afa
+Into: a9f15f2 - 📋 Complete Railway Deployment Guide - Step-by-step instructions for 10-minute backend deployment
+New message:
+```
+docs(deploy): complete Railway deployment documentation
+
+- Create comprehensive deployment guide
+- Add step-by-step instructions
+- Document configuration requirements
+- Include troubleshooting section
+```
+
+### Group 8: Website Enhancement and GitHub Pages
+Squash: 044d490, bba3f23, 7debd0b, 637a920, 74e4aef, 8b18981, 1806a94, 3c4fa43
+Into: b287471 - 🔧 Fix Multiple Website Issues - Complete Website Enhancement
+New message:
+```
+fix(website): resolve multiple website issues and enhance functionality
+
+- Fix broken image references
+- Resolve navigation issues
+- Improve mobile responsiveness
+- Add missing destination pages
+- Enhance user experience
+```
+
+### Group 9: Payment Page Improvements
+Squash: 1617310, 044d490, bba3f23, 7debd0b, 637a920
+Into: 0009c81 - 🔧 Fix Payment Page Font Visibility & Update Gmail App Password - Enhanced text contrast and readability
+New message:
+```
+fix(payment): improve payment page accessibility and security
+
+- Enhance text contrast for better readability
+- Fix font visibility issues
+- Update Gmail app password for email notifications
+- Improve form validation
+```
+
+### Group 10: Repository Maintenance
+Squash: 1617310, 044d490
+Into: 4aad852 - 🔧 Update Submodule to Latest Commit - Payment page font fixes and Gmail app password
+New message:
+```
+chore(repo): synchronize repository state and update submodules
+
+- Update submodule references
+- Synchronize local and remote branches
+- Apply configuration changes
+- Ensure repository consistency
+```
+
+## Summary:
+- Total commits: 39
+- Good commits preserved: 18
+- System commits squashed: 21
+- Final commit count: 18 (same as good commits, but some with improved messages)
