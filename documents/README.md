@@ -295,7 +295,7 @@ This project is licensed under the MIT License. You are free to use, modify, and
 ## 👥 Credits
 
 - **Original Template**: Based on themewagon/tour template
-- **Kenya Rebranding & Development**: MiniMax Agent
+- **Kenya Rebranding & Development**: Cavin Otieno
 - **Business Owner**: Cavin Otieno
 - **Kenya Branding**: Complete customization for Kenya safari experiences
 - **Photography**: High-quality Kenya travel and wildlife photography
